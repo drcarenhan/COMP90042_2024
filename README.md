@@ -80,6 +80,7 @@ NOTE: There is no deduction even if you do not apply any data pre-processing tec
 |-----------------------------------------|
 
 **Project Rules**
+
 You MUST follow the rules below. If not, your project submission will NOT be marked.
 1) You can use the NER model with different types of sequence model, such as RNN, LSTM, Bi-LSTM, GRU, Bi-GRU, Transformer, even PLM or LLM, etc. However, you MUST NOT directly use the existing state-of-the-art (SOTA) architecture as it is but need to modify it and propose your own model. For example, you MUST NOT directly use the SOTA model (i.e. BERT) without any modification.
 
@@ -98,6 +99,8 @@ You MUST follow the rules below. If not, your project submission will NOT be mar
 8) You MUST use the given code template.
 
 9) You MUST use only given training, validate, test dataset for training and testing.
+
+10) The code (that you produced) MUST
 
 **Useful Notes**
 1) Please refer to lecture notes, workshop materials, and resources that are covered.
@@ -123,35 +126,31 @@ You need to justify your decision and explain the pattern by testing the perform
 
 You need to write a manual (readme) for the assessor. Your manual should guide how to test your program and also includes a list of packages (with version) that you used. If you work on Google Colab or Jupyter Notebook (.ipynb), your manual should guide the assessor on where to upload the required files (trained model, dataset, etc.). Note the assessor will use Google Colab to open your ipynb file. Unless you have a function that downloads required files from URL or Google Drive. 
 
-You should provide five different testing results as below.
 For your information, the following sample result tables are from the paper
 - (Hierarchical Contextualized Representation for Named Entity Recognition)[https://arxiv.org/pdf/1911.02257v2.pdf] Luo et al., AAAI 2020
-
-**Evaluation Setup**
-Check the Evaluation (Dataset, Setup, Implementations) section in the paper Knowledge-aware Named Entity Recognition with Alleviating Heterogeneity Nie et al., AAAI 2020.
-
-1. Performance Comparison
-
-The following model testings should be conducted. For each testing, you MUST include and visualise the table/graph in the ipynb file (your code) and your documentation (section 4). Note that you MUST make the final model and conduct the ablation studies with that final model as follows:
-- **Input Embedding Ablation Study[3 marks]: (Explain the performance)** <br/> Test at least three types of input embedding variants (e.g. word2vec only, word2vec+POS tag embedding, word2vec+all 3 features embeddings) for your model, and visualise a table/graph with the peformance (exact value of precision, recall, and f1) of all 3 variants. 
-- **Attention Ablation Study[3 marks]: (Explain the performance)** <br/> Test at least three types of attention variants (attention calculation variants or attention alignment variants) for your model, and visualise a table/graph with the peformance (exact value of precision, recall, and f1) of all 3 variants. e.g. try three different attention calculations, including dot-product, scaled dot-product, and cosine attention caluation.
-- **Hyper Parameter Testing[3 marks]: (Explain the performance)** <br/> Test at least different 5 hyperparameter variants (5 different epoch values or 5 learning rates) for your model, and visualise a table/graph with the performance (exact value of precision, recall, and f1) of all 5 variants.
-
 
 <br/>
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/facebook/355/page-facing-up_1f4c4.png" width="30" />4.Documentation [7 marks]
-| :exclamation:  You MUST use the [ACL template](https://github.com/acl-org/acl-style-files) when writing your report. We prefer you to use LATEX, but you are permitted to useWord. You must include your student number under the title (using the \author field in LATEX and enabling the \aclfinalcopy option), but not your name so as to facilitate anonymous peer reviewing. We will not accept reports that are longer than the stated limits above, or otherwise violate the style requirements.
+## <img src="https://em-content.zobj.net/thumbs/120/facebook/355/page-facing-up_1f4c4.png" width="30" />4.Documentation
+| :exclamation:  You MUST use the [ACL template](https://github.com/acl-org/acl-style-files) when writing your report.
 |-----------------------------------------|
 
-You should submit pdf version of the assignment report (8 pages Maximum - excluding reference and appendix). The detailed documentation requirement for each section can be found above section 1. Dataset **(2 marks)**, 2. QA Model Implementation **(2 marks)**, and 3. Model Testing **(3 marks)**. **Please check the requirement items with the tag of (Justify your decision) or (Explain the performance). You MUST write those items to the report.**
+We prefer you to use LATEX, but you are permitted to use Word. You must include your student number under the title (using the \author field in LATEX and enabling the \aclfinalcopy option), but not your name so as to facilitate anonymous peer reviewing. We will not accept reports that are longer than the stated limits above, or otherwise violate the style requirements.
 
+The report should be submitted as a PDF, and be no more than **five(5)** A4 pages of content, excluding references. Appendix is not allowed—you should therefore consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
+A report should be submitted with the description, analysis, and comparative assessment of methods used. You should describe your methods in enough detail that we could replicate them without looking at your code. You should mention any choices you made in implementing your system along with empirical justification for those choices using the development set. You should also detail both your development performance and the **Final
+Evaluation** performance on the Kaggle leaderboard (and in your submitted code and running log). You should use tables and the appropriate charts to report your results/findings.
+
+The description of your method should be clear and concise. You should write it at a level that a Masters student could read and understand without difficulty. If you use any existing algorithms, you do not have to rewrite the complete description, but must provide a summary that shows your understanding and you should provide a citation to reference(s) in the relevant literature. In the report, we will be very interested in seeing evidence
+of your thought processes and reasoning for choosing one approach over another (as indicated by the heavier weighting of the “soundness” criteria).
+
+The report should include the evaluation setup, including dataset description, baseline, and implementation details. You need to describe the setup environment and hyper-parameter you used. e.g. input embedding dimension, epochs, learning rate, optimiser). Please check the Evaluation (Dataset, Baselines, Implementations) section in the paper (Knowledge-aware Named Entity Recognition with Alleviating Heterogeneity)[https://ojs.aaai.org/index.php/AAAI/article/view/17603/17410] Nie et al., AAAI 2020.
 
 **The justification MUST be based on the previous literature reference (incl. international conference or journal publication) or empirical evaluation. (Check the definition of 'empirical evaluation' at the following FAQ Section). **
 
-**Note that We DO NOT MARK the Documentation if it is not implemented as described in the report.**
+**Note that We DO NOT MARK the Documentation if it is NOT implemented as described in the report.**
 
 
 
@@ -164,10 +163,21 @@ You should submit pdf version of the assignment report (8 pages Maximum - exclud
 **You Must Submit Three Files:**
 - pdf file: a report (documentation) with the given template [ACL template](https://github.com/acl-org/acl-style-files)
 (file name: COMP90042_your_groupid.pdf)
-- ipynb file or python packages (.py files): An ipynb file or python package that includes all your implementation (the implementation is described in the following sections - dataset, qa model, model testing). You MUST use this [ipynb template](https://colab.research.google.com/drive/1flkFWGcD1S84HONhTGodsEudyPZjsJ75?usp=sharing)
+- ipynb file or python packages (.py files): An ipynb file or python package that includes all your implementation (the code should be in the following sections - dataset, model, testing). You MUST use this [ipynb template]()
 (file name: COMP90042_your_groupid.ipynb or  COMP90042_your_groupid.zip)
 - zip file: A zip file that contains trained models, dataset, readme - if necessary, and all other required files that you used for your program.
 (file name: COMP90042_your_groupid_resource.zip)
+
+
+**Your submissions will be graded as follows:**
+| Component  | Criteria | Description  | Marks |
+| ------------- | ------------- | ------------- | ------------- |
+| Writing  | Clarity  | Is the report well-written and well-structured?  | 5  |
+| Writing  | Tables/Figures  | Are tables and figures interpretable and used effectively?  | 5  |
+| ------------- | ------------- | ------------- | ------------- |
+| Writing  | Tables/Figures  | Are tables and figures interpretable and used effectively?  | 5  |
+
+| ------------- | ------------- | ------------- | ------------- |
 
 <br/>
 
