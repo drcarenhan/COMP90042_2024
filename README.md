@@ -179,7 +179,32 @@ The report should include the evaluation setup, including dataset description, b
 | Content  | Novelty  | How novel or ambitious are the techniques or methods?  | 5  |
 | Content  | Results  | Are the results and findings convincing? Are they well articulated?  | 5  |
 | Scholarship  | Citation  | Does the report demonstrate an outstanding ability to critically evaluate the academic validity of primary sources (trutable publication) and use this information to support, unpack or question academic findings?   | 4 |
-| Bonus  | Leaderboard  | based on Codalab leaderboard ranking  | 2  |
+
+**Bonus Mark: You should submit the leaderboard with your group number**
+
+The top 10 groups in the private leaderboard will receive 3 bonus marks.
+The top 11 to 30 groups in the private leaderboard will receive 1 bonus mark.
+The evaluation metric for this competition is **Mean F1-Score**. The F1 metric weights recall and precision equally, and a good retrieval algorithm will maximize both precision and recall simultaneously. Thus, moderately good performance on both will be favored over extremely good performance on one and poor performance on the other.
+
+The Mean F1-Score in kaggle is same to [sklearn.metrics.f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html) with average = 'micro'.
+
+In your report, you can either use token-based or entity-based performance measure.
+
+
+**Leaderboard Submission Format**
+
+For every token in the dataset, submission files should contain two columns: Id and Predicted.
+The file should contain a header and have the following format:
+
+```ID,Predicted
+1,O
+2,O
+3,O
+4,I-LOC
+...
+```
+
+
 
 <br/>
 
