@@ -11,11 +11,11 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 
 
 **Table of Contents**
-- [0. Important Dates (Very Important!!)](https://github.com/drcarenhan/COMP90042_2024#0important-dates)
-- [1. DataSet](https://github.com/drcarenhan/COMP90042_2024#-1-dataset)
-- [2. Important Notes](https://github.com/drcarenhan/COMP90042_2024#2)
-- [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024#3model-testing)
-- [4. Documentation](https://github.com/drcarenhan/COMP90042_2024#4documentation)
+- [0. Important Dates (Very Important!!)](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#0important-dates)
+- [1. DataSet](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-1-dataset)
+- [2. Important Notes](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#2important-note)
+- [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#3testing-and-evaluation)
+- [4. Documentation](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#4documentation-7-marks)
 - [Assignment Submission Method](https://github.com/drcarenhan/COMP90042_2024#assignment-submission-method)
 - [FAQ](https://github.com/drcarenhan/COMP90042_2024#faq)
 
@@ -138,7 +138,7 @@ You should submit pdf version of the assignment report (8 pages Maximum - exclud
 <br/>
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" />Assignment Submission Method
+## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" />Project Submission Method and Grading
 **Due Date:** 11:59 PM, Saturday 20 May 2023
 
 **Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2023)
