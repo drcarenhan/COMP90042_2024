@@ -1,13 +1,14 @@
 # COMP90042 Project Description
 
-This assignment can be done individually or in teams of two or three or four(max). We strongly encourage healthy collaboration. See the [University of Melbourne Working in Groups Guide](https://students.unimelb.edu.au/academic-skills/resources/communicating-in-class/communicating-with-peers/working-in-groups). If your team member does not engage or collaborate, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) with describing the contributions of each collaborator. We strongly recommend to start working early so that you will have ample time to discover stumbling blocks and ask questions.
+This assignment can be done individually or in teams of two or three or four(max). We strongly encourage healthy collaboration. See the [University of Melbourne Working in Groups Guide](https://students.unimelb.edu.au/academic-skills/resources/communicating-in-class/communicating-with-peers/working-in-groups). 
+If your team member does not collaborate, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) with describing the contributions of each collaborator. We strongly recommend to start working early so that you will have ample time to discover stumbling blocks and ask questions.
 
 In this assignment, you will work on proposing and implementing a model/framework for Named Entity Recognition (NER) from the defence corpus. The detailed information for the implementation and submission step are specified in the following sections. Note that lecture note and workshop exercises would be a good starting point and baseline for the assignment [especially, Lecture XX/Lab XX].
 Note that we specified which lectures and labs are highly related!
 
 You are free to design the architecture using any of the techniques learned from our lectures and labs. For training and evaluation, we provide you a benchmark dataset in split of training, validation and test. You will use the training and validation set for training/validation while using the test set for leaderboard submission. 
 
-For this assignment, **instead of solely focusing on achieving higher performance, having the good architecture design & implementation with detailed step-by-step justification will be important to show you’ve fully reached our expectation in this assignment.**
+For this assignment, **instead of solely focusing on achieving higher performance, having the novel architecture design & implementation with detailed justification and empirical evaluation will be important to show you’ve fully reached our expectation in this assignment.**
 
 
 **Table of Contents**
@@ -54,6 +55,8 @@ The leaderboard will be opened from 16 April to 24 May, 2024, 11:59PM, which is 
 | :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1flkFWGcD1S84HONhTGodsEudyPZjsJ75?usp=sharing) |
 |-----------------------------------------|
 
+**WILL ADD ONE FIGURE TO DESCRIBE THIS NER TASK**
+
 
 **Data And Input**
 For this Project, you are to use PART OF the [re3d dataset](https://github.com/juand-r/entity-recognition-datasets/tree/master/data/re3d) from Defense Science and Technology Laboratory, U.K., which focuses on named entity extraction relevant to somebody operating in the role of a defence and security intelligent analyst. You are provided with three files (train, val, test)
@@ -96,8 +99,8 @@ You MUST follow the rules below. If not, your project submission will NOT be mar
 
 9) You MUST use only given training, validate, test dataset for training and testing.
 
-**Useful Notes
-**1) Please refer to lecture notes, workshop materials, and resources that are covered.
+**Useful Notes**
+1) Please refer to lecture notes, workshop materials, and resources that are covered.
 
 2) Please proceed your own way if we do not specify it in the assignment specification.
 
@@ -108,9 +111,26 @@ You MUST follow the rules below. If not, your project submission will NOT be mar
 | :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1flkFWGcD1S84HONhTGodsEudyPZjsJ75?usp=sharing) |
 |-----------------------------------------|
 
-You need to justify your decision and explain the pattern by testing the performance of your implementation. The testing result should include precision, recall and F-value -refer to [Lab4(Exercise)](https://colab.research.google.com/drive/1WvRFQX_j-cg3prcGZb7zC_85c2wG64Uc?usp=sharing).
+**IMPORTANT: please make sure that you check the IMPORTANT NOTES**
+
+**Testing and Leaderboard**
+For this assignment, instead of solely focusing on achieving higher performance, having the good architecture design & implementation with detailed step-by-step justification will be important to show you’ve fully reached our expectation in this assignment.
+
+**Testing and Evaluation**
+You are to implement a testing program with the trained model. When the testing program is executed, the program should show the testing result by using your proposed model. The testing result should include accuracy, same as (**Workshop XX**)[https://colab.research.google.com/drive/1yVy7T9DNB9lJo3NgFdsHAuEsI0msAuPz]. Moreover, your testing result should be compared with the baseline. The Bi-LSTM CRF section (the original code can be found in the [pytorch official website](https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html)
+
+You need to justify your decision and explain the pattern by testing the performance of your implementation. The testing result should include precision, recall and F-value -refer to **Workshop XX**.
 
 You need to write a manual (readme) for the assessor. Your manual should guide how to test your program and also includes a list of packages (with version) that you used. If you work on Google Colab or Jupyter Notebook (.ipynb), your manual should guide the assessor on where to upload the required files (trained model, dataset, etc.). Note the assessor will use Google Colab to open your ipynb file. Unless you have a function that downloads required files from URL or Google Drive. 
+
+You should provide five different testing results as below.
+For your information, the following sample result tables are from the paper
+- (Hierarchical Contextualized Representation for Named Entity Recognition)[https://arxiv.org/pdf/1911.02257v2.pdf] Luo et al., AAAI 2020
+
+**Evaluation Setup**
+Check the Evaluation (Dataset, Setup, Implementations) section in the paper Knowledge-aware Named Entity Recognition with Alleviating Heterogeneity Nie et al., AAAI 2020.
+
+1. Performance Comparison
 
 The following model testings should be conducted. For each testing, you MUST include and visualise the table/graph in the ipynb file (your code) and your documentation (section 4). Note that you MUST make the final model and conduct the ablation studies with that final model as follows:
 - **Input Embedding Ablation Study[3 marks]: (Explain the performance)** <br/> Test at least three types of input embedding variants (e.g. word2vec only, word2vec+POS tag embedding, word2vec+all 3 features embeddings) for your model, and visualise a table/graph with the peformance (exact value of precision, recall, and f1) of all 3 variants. 
@@ -122,7 +142,7 @@ The following model testings should be conducted. For each testing, you MUST inc
 
 
 ## <img src="https://em-content.zobj.net/thumbs/120/facebook/355/page-facing-up_1f4c4.png" width="30" />4.Documentation [7 marks]
-| :exclamation:  Please use the provided documentation template ([overleaf](https://www.overleaf.com/read/wpjzvgkcjkwp) or [word](https://github.com/drcarenhan/COMP90042_2024/blob/main/assign_report.docx))|
+| :exclamation:  You MUST use the [ACL template](https://github.com/acl-org/acl-style-files) when writing your report. We prefer you to use LATEX, but you are permitted to useWord. You must include your student number under the title (using the \author field in LATEX and enabling the \aclfinalcopy option), but not your name so as to facilitate anonymous peer reviewing. We will not accept reports that are longer than the stated limits above, or otherwise violate the style requirements.
 |-----------------------------------------|
 
 You should submit pdf version of the assignment report (8 pages Maximum - excluding reference and appendix). The detailed documentation requirement for each section can be found above section 1. Dataset **(2 marks)**, 2. QA Model Implementation **(2 marks)**, and 3. Model Testing **(3 marks)**. **Please check the requirement items with the tag of (Justify your decision) or (Explain the performance). You MUST write those items to the report.**
@@ -139,35 +159,24 @@ You should submit pdf version of the assignment report (8 pages Maximum - exclud
 
 
 ## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" />Project Submission Method and Grading
-**Due Date:** 11:59 PM, Saturday 20 May 2023
-
-**Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2023)
+**Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2024)
 
 **You Must Submit Three Files:**
-- pdf file: a report (documentation) with the given template ([overleaf](https://www.overleaf.com/read/wpjzvgkcjkwp) or [word](https://github.com/drcarenhan/COMP90042_2024/blob/main/assign_report.docx))
+- pdf file: a report (documentation) with the given template [ACL template](https://github.com/acl-org/acl-style-files)
 (file name: COMP90042_your_groupid.pdf)
 - ipynb file or python packages (.py files): An ipynb file or python package that includes all your implementation (the implementation is described in the following sections - dataset, qa model, model testing). You MUST use this [ipynb template](https://colab.research.google.com/drive/1flkFWGcD1S84HONhTGodsEudyPZjsJ75?usp=sharing)
-(file name: COMP90042_your_groupid.ipynb)
+(file name: COMP90042_your_groupid.ipynb or  COMP90042_your_groupid.zip)
 - zip file: A zip file that contains trained models, dataset, readme - if necessary, and all other required files that you used for your program.
-(file name: COMP90042_your_groupid.zip)
+(file name: COMP90042_your_groupid_resource.zip)
 
 <br/>
 
 ## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" />FAQ
 **Question: My Model performs really bad (Low F1). What did I do wrong?**<br/>
-Answer: Please don't worry about the low performance as our training dataset is very small and your model is very basic deep learning model. Of course, there is something wrong with your code if it comes out below 10% (0.1).
+Answer: Please don't worry about the low performance as our training dataset is very small and your model is very basic deep learning model. Of course, there is something wrong with your code if it comes out below the baseline.
 
-**Question: How can we make POS Tag or NER Tag to the embedding?**<br/>
-Answer: You can either use it as a categorial embedding (e.g. putting the POS tag index- like Noun-->0, Verb -->1, etc) or applied word embeding (e.g. Extracting the Pretrained Word2Vec embedding for the term 'Noun' or 'Verb'). If you have any other approach to apply, please proceed! (Note you need to have a justification - why you apply it by using theoretial justification or empirical evaluation) 
-
-**Question: Do I need to save the word embedding model or Recurrent models?**<br/>
-Answer: We highly recommend you to save your best word embedding model, and load it when you use it in your code. Otherwise, it is sometimes removed and overwrite all your code so that you need to re-run the whole code again.
-
-**Question: Is there any other marking scheme/marking criteria available for the assignment?**<br/>
-Answer: The assignment specification is extremely detailed and the partial mark details are already given. The marking will be directly conducted based on the specification. It means you will get the full mark if you fulfill all the requirement that we mentioned in the specification.
+**Question: Do I need to save the word embedding model?**<br/>
+Answer: We highly recommend you to save your best word embedding model (if you have), and load it when you use it in your code. Otherwise, it is sometimes removed and overwrite all your code so that you need to re-run the whole code again.
 
 **Question: What do I need to write in the justification or explanation? How much do I need to articulate?**<br/>
-Answer: We recommend conducting empirical evaluation. Empirical evaluation refers to the appraisal of a theory by observation in experiments. The key to good empirical evaluation is the proper design and execution of the experiments so that the particular factors to be tested can be easily separated from other confounding factors. Hence, visualizing the comparison of different testing results is a good way to justify your decision. Explain the trends based on your understanding. You can find another way (other than comparing different models) as well - like citing the peer-reviewed publications. 
-
-**Question: Can I use other Sequence Model(like Transformer)?**<br/>
-Answer: Yes, you can but please make sure all requirements in other sections should be successfully followed. For example, make sure you have all required dataset settings, input embeddings and model testings.
+Answer: We recommend conducting empirical evaluation. Empirical evaluation refers to the appraisal of a theory by observation in experiments. The key to good empirical evaluation is the proper design and execution of the experiments so that the particular factors to be tested can be easily separated from other confounding factors. Hence, visualising the comparison of different testing results is a good way to justify your decision. Explain the trends based on your understanding. You can find another way (other than comparing different models) as well - like citing the peer-reviewed publications. 
