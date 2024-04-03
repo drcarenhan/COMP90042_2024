@@ -52,7 +52,7 @@ The leaderboard will be opened from 16 April to 24 May, 2024, 11:59PM, which is 
 <br/>
 
 ## <img src="https://em-content.zobj.net/thumbs/120/samsung/349/card-file-box_1f5c3-fe0f.png" width="30" /> 1. DataSet
-| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1flkFWGcD1S84HONhTGodsEudyPZjsJ75?usp=sharing) |
+| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template]() |
 |-----------------------------------------|
 
 **WILL ADD ONE FIGURE TO DESCRIBE THIS NER TASK**
@@ -111,7 +111,7 @@ You MUST follow the rules below. If not, your project submission will NOT be mar
 
 
 ## <img src="https://em-content.zobj.net/source/skype/289/test-tube_1f9ea.png" width="30" />3.Testing and Evaluation
-| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1flkFWGcD1S84HONhTGodsEudyPZjsJ75?usp=sharing) |
+| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template]() |
 |-----------------------------------------|
 
 **IMPORTANT: please make sure that you check the IMPORTANT NOTES**
