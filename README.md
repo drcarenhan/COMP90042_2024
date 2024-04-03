@@ -127,7 +127,7 @@ You need to justify your decision and explain the pattern by testing the perform
 You need to write a manual (readme) for the assessor. Your manual should guide how to test your program and also includes a list of packages (with version) that you used. If you work on Google Colab or Jupyter Notebook (.ipynb), your manual should guide the assessor on where to upload the required files (trained model, dataset, etc.). Note the assessor will use Google Colab to open your ipynb file. Unless you have a function that downloads required files from URL or Google Drive. 
 
 For your information, the following sample result tables are from the paper
-- (Hierarchical Contextualized Representation for Named Entity Recognition)[https://arxiv.org/pdf/1911.02257v2.pdf] Luo et al., AAAI 2020
+- [Hierarchical Contextualized Representation for Named Entity Recognition](https://arxiv.org/pdf/1911.02257v2.pdf) Luo et al., AAAI 2020
 
 <br/>
 
