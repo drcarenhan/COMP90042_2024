@@ -173,11 +173,13 @@ The report should include the evaluation setup, including dataset description, b
 | Component  | Criteria | Description  | Marks |
 | ------------- | ------------- | ------------- | ------------- |
 | Writing  | Clarity  | Is the report well-written and well-structured?  | 5  |
-| Writing  | Tables/Figures  | Are tables and figures interpretable and used effectively?  | 5  |
-| ------------- | ------------- | ------------- | ------------- |
-| Writing  | Tables/Figures  | Are tables and figures interpretable and used effectively?  | 5  |
-
-| ------------- | ------------- | ------------- | ------------- |
+| Writing  | Tables/Figures  | Are tables and figures interpretable and used effectively?  | 4  |
+| Content  | Soundness  | Are the experiments sound? Are methods justified and used correctly?  | 7  |
+| Content  | Substance  | How much work is done? Is there enough substance?  | 5  |
+| Content  | Novelty  | How novel or ambitious are the techniques or methods?  | 5  |
+| Content  | Results  | Are the results and findings convincing? Are they well articulated?  | 5  |
+| Scholarship  | Citation  | Does the report demonstrate an outstanding ability to critically evaluate the academic validity of primary sources (trutable publication) and use this information to support, unpack or question academic findings?   | 4 |
+| Bonus  | Leaderboard  | based on Codalab leaderboard ranking  | 2  |
 
 <br/>
 
