@@ -161,7 +161,7 @@ The report should include the evaluation setup, including dataset description, b
 **Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2024)
 
 **You Must Submit Three Files:**
-- pdf file: a report (documentation) with the given template [ACL template](https://github.com/acl-org/acl-style-files)
+- pdf file: a report (documentation) with the given template [ACL template](https://github.com/acl-org/acl-style-files) 
 (file name: COMP90042_your_groupid.pdf)
 - ipynb file or python packages (.py files): An ipynb file or python package that includes all your implementation (the code should be in the following sections - dataset, model, testing). You MUST use this [ipynb template]()
 (file name: COMP90042_your_groupid.ipynb or  COMP90042_your_groupid.zip)
