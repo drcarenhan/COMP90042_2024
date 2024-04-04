@@ -179,7 +179,7 @@ The report should include the evaluation setup, including dataset description, b
 | Content  | Novelty  | How novel or ambitious are the techniques or methods?  | 5  |
 | Content  | Results  | Are the results and findings convincing? Are they well articulated?  | 5  |
 | Scholarship  | Citation  | Does the report demonstrate an outstanding ability to critically evaluate the academic validity of primary sources (trutable publication) and use this information to support, unpack or question academic findings?   | 4 |
-| Total  |   |  | 20  |
+| **Total**  |   |  | **20**  |
 
 
 **Bonus Mark: You should submit the leaderboard with your group number**
