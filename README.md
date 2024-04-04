@@ -16,8 +16,8 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [1. DataSet](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-1-dataset)
 - [2. Important Notes](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#2important-note)
 - [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#3testing-and-evaluation)
-- [4. Documentation](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#4documentation-7-marks)
-- [Assignment Submission Method](https://github.com/drcarenhan/COMP90042_2024#assignment-submission-method)
+- [4. Documentation](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#4documentation)
+- [Assignment Submission Method](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#project-submission-method-and-grading)
 - [FAQ](https://github.com/drcarenhan/COMP90042_2024#faq)
 
 <br/>
