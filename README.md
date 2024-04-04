@@ -17,8 +17,9 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [2. Important Notes](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#2important-note)
 - [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#3testing-and-evaluation)
 - [4. Documentation](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#4documentation)
-- [Assignment Submission Method](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#project-submission-method-and-grading)
-- [FAQ](https://github.com/drcarenhan/COMP90042_2024#faq)
+- [Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#project-submission-method-and-grading)
+- [Week12 
+- [FAQ](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#faq)
 
 <br/>
 <br/>
@@ -209,6 +210,22 @@ The file should contain a header and have the following format:
 
 
 <br/>
+
+
+
+
+## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" />Week 12 Presentation and Peer Review
+**YOU MUST Attend Week 12 Workshop**
+* The presentation allows students to communicate their project background, project aims, methods, results and importance, limitations, conclusions, and future work to a group of peers (students and Academic staff). Students are assessed on their presentation skills, visual communication skills, technical content of the presentation and their answers to questions.
+* Each group presents for 8 minutes. There is then 2 minutes for questions.
+* Peer Review Markers must use the attached marking sheet and write comments on each item to justify their mark and provide feedback to others.
+
+**Marking**
+**Total**: 8 Marks
+* **Presentation Skill**: 6 Marks
+* **Peer Review Skill**: 2 Marks
+
+
 
 ## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" />FAQ
 **Question: My Model performs really bad (Low F1). What did I do wrong?**<br/>
