@@ -53,7 +53,7 @@ The leaderboard will be opened from 16 April to 24 May, 2024, 11:59PM, which is 
 <br/>
 
 ## <img src="https://em-content.zobj.net/thumbs/120/samsung/349/card-file-box_1f5c3-fe0f.png" width="30" /> 1. DataSet
-| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template]() |
+| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
 
 **WILL ADD ONE FIGURE TO DESCRIBE THIS NER TASK**
@@ -77,7 +77,7 @@ NOTE: There is no deduction even if you do not apply any data pre-processing tec
 
 ## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/desktop-computer_1f5a5-fe0f.png" width="30" />2.Important Note
 
-| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template]() |
+| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
 
 **Project Rules**
@@ -112,7 +112,7 @@ You MUST follow the rules below. If not, your project submission will NOT be mar
 
 
 ## <img src="https://em-content.zobj.net/source/skype/289/test-tube_1f9ea.png" width="30" />3.Testing and Evaluation
-| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template]() |
+| :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
 
 **IMPORTANT: please make sure that you check the IMPORTANT NOTES**
@@ -164,7 +164,7 @@ The report should include the evaluation setup, including dataset description, b
 **You Must Submit Three Files:**
 - pdf file: a report (documentation) with the given template [ACL template](https://github.com/acl-org/acl-style-files) 
 (file name: COMP90042_your_groupid.pdf)
-- ipynb file or python packages (.py files): An ipynb file or python package that includes all your implementation (the code should be in the following sections - dataset, model, testing). You MUST use this [ipynb template]()
+- ipynb file or python packages (.py files): An ipynb file or python package that includes all your implementation (the code should be in the following sections - dataset, model, testing). You MUST use this [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing)
 (file name: COMP90042_your_groupid.ipynb or  COMP90042_your_groupid.zip)
 - zip file: A zip file that contains trained models, dataset, readme - if necessary, and all other required files that you used for your program.
 (file name: COMP90042_your_groupid_resource.zip)
