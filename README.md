@@ -118,16 +118,16 @@ You MUST follow the rules below. If not, your project submission will NOT be mar
 **IMPORTANT: please make sure that you check the IMPORTANT NOTES**
 
 **Testing and Leaderboard**
-For this assignment, instead of solely focusing on achieving higher performance, having the good architecture design & implementation with detailed step-by-step justification will be important to show you’ve fully reached our expectation in this assignment.
+For this assignment, instead of solely focusing on achieving higher performance, having a good architecture design & implementation with detailed step-by-step justification will be important to show you’ve fully reached our expectations in this assignment.
 
 **Testing and Evaluation**
-You are to implement a testing program with the trained model. When the testing program is executed, the program should show the testing result by using your proposed model. The testing result should include accuracy, same as [**Workshop XX**](https://colab.research.google.com/drive/1yVy7T9DNB9lJo3NgFdsHAuEsI0msAuPz). Moreover, your testing result should be compared with the baseline. The Bi-LSTM CRF section (the original code can be found in the [pytorch official website](https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html)
+You are to implement a testing program with the trained model. When the testing program is executed, the program should show the testing result by using your proposed model. The testing result should include accuracy, same as [**Workshop XX**](https://colab.research.google.com/drive/1yVy7T9DNB9lJo3NgFdsHAuEsI0msAuPz). Moreover, your testing result should be compared with the baseline. The Bi-LSTM CRF section (the original code can be found on the [pytorch official website](https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html)
 
 You need to justify your decision and explain the pattern by testing the performance of your implementation. The testing result should include precision, recall and F-value -refer to **Workshop XX**.
 
-You need to write a manual (readme) for the assessor. Your manual should guide how to test your program and also includes a list of packages (with version) that you used. If you work on Google Colab or Jupyter Notebook (.ipynb), your manual should guide the assessor on where to upload the required files (trained model, dataset, etc.). Note the assessor will use Google Colab to open your ipynb file. Unless you have a function that downloads required files from URL or Google Drive. 
+You need to write a manual (readme) for the assessor. Your manual should guide you on how to test your program and also include a list of packages (with versions) that you used. If you work on Google Colab or Jupyter Notebook (.ipynb), your manual should guide the assessor on where to upload the required files (trained model, dataset, etc.). Note the assessor will use Google Colab to open your ipynb file unless you have a function that downloads required files from URL or Google Drive. 
 
-For your information, the following sample result tables are from the paper
+Please check the following sample Evaluation setup section. 
 - [Hierarchical Contextualized Representation for Named Entity Recognition](https://arxiv.org/pdf/1911.02257v2.pdf) Luo et al., AAAI 2020
 
 <br/>
@@ -137,17 +137,17 @@ For your information, the following sample result tables are from the paper
 | :exclamation:  You MUST use the [ACL template](https://github.com/acl-org/acl-style-files) when writing your report.
 |-----------------------------------------|
 
-We prefer you to use LATEX, but you are permitted to use Word. You must include your student number under the title (using the \author field in LATEX and enabling the \aclfinalcopy option), but not your name so as to facilitate anonymous peer reviewing. We will not accept reports that are longer than the stated limits above, or otherwise violate the style requirements.
+We prefer you to use LATEX, but you are permitted to use Word. You must include your student number under the title (using the \author field in LATEX and enabling the \aclfinalcopy option), but not your name to facilitate anonymous peer reviewing. We will not accept reports that are longer than the stated limits above, or otherwise violate the style requirements.
 
-The report should be submitted as a PDF, and be no more than **five(5)** A4 pages of content, excluding references. Appendix is not allowed—you should therefore consider carefully the information that you want to include in the report to build a coherent and concise narrative.
+The report should be submitted as a PDF and contain no more than five(5)** A4 pages of content, excluding references. An appendix is not allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
-A report should be submitted with the description, analysis, and comparative assessment of methods used. You should describe your methods in enough detail that we could replicate them without looking at your code. You should mention any choices you made in implementing your system along with empirical justification for those choices using the development set. You should also detail both your development performance and the **Final
+A report should be submitted with a description, analysis, and comparative assessment of the methods used. You should describe your methods in enough detail that we could replicate them without looking at your code. You should mention any choices you made in implementing your system along with empirical justification for those choices using the development set. You should also detail both your development performance and the **Final
 Evaluation** performance on the Kaggle leaderboard (and in your submitted code and running log). You should use tables and the appropriate charts to report your results/findings.
 
 The description of your method should be clear and concise. You should write it at a level that a Masters student could read and understand without difficulty. If you use any existing algorithms, you do not have to rewrite the complete description, but must provide a summary that shows your understanding and you should provide a citation to reference(s) in the relevant literature. In the report, we will be very interested in seeing evidence
 of your thought processes and reasoning for choosing one approach over another (as indicated by the heavier weighting of the “soundness” criteria).
 
-The report should include the evaluation setup, including dataset description, baseline, and implementation details. You need to describe the setup environment and hyper-parameter you used. e.g. input embedding dimension, epochs, learning rate, optimiser). Please check the Evaluation (Dataset, Baselines, Implementations) section in the paper [Knowledge-aware Named Entity Recognition with Alleviating Heterogeneity](https://ojs.aaai.org/index.php/AAAI/article/view/17603/17410) Nie et al., AAAI 2020.
+The report should include the evaluation setup, including dataset description, baseline, and implementation details. You need to describe the setup environment and hyperparameter you used (e.g., input embedding dimension, epochs, learning rate, optimiser). Please check the Evaluation (Dataset, Baselines, Implementations) section in the paper [Knowledge-aware Named Entity Recognition with Alleviating Heterogeneity](https://ojs.aaai.org/index.php/AAAI/article/view/17603/17410) Nie et al., AAAI 2020.
 
 **The justification MUST be based on the previous literature reference (incl. international conference or journal publication) or empirical evaluation. (Check the definition of 'empirical evaluation' at the following FAQ Section). **
 
