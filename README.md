@@ -18,7 +18,7 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#3testing-and-evaluation)
 - [4. Documentation](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#4documentation)
 - [Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#project-submission-method-and-grading)
-- [Week12 
+- [Week12 Presentation and Peer Review](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#week-12-presentation-and-peer-review)
 - [FAQ](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#faq)
 
 <br/>
@@ -179,7 +179,7 @@ The report should include the evaluation setup, including dataset description, b
 | Content  | Substance  | How much work is done? Is there enough substance?  | 5  |
 | Content  | Novelty  | How novel or ambitious are the techniques or methods?  | 5  |
 | Content  | Results  | Are the results and findings convincing? Are they well articulated?  | 5  |
-| Scholarship  | Citation  | Does the report demonstrate an outstanding ability to critically evaluate the academic validity of primary sources (trutable publication) and use this information to support, unpack or question academic findings?   | 4 |
+| Scholarship  | Citation  | Does the report demonstrate an outstanding ability to critically evaluate the academic validity of primary sources (trustable publication) and use this information to support, unpack or question academic findings?   | 4 |
 | **Total**  |   |  | **35**  |
 
 
@@ -187,11 +187,11 @@ The report should include the evaluation setup, including dataset description, b
 
 The top 10 groups in the private leaderboard will receive 3 bonus marks.
 The top 11 to 30 groups in the private leaderboard will receive 1 bonus mark.
-The evaluation metric for this competition is **Mean F1-Score**. The F1 metric weights recall and precision equally, and a good retrieval algorithm will maximize both precision and recall simultaneously. Thus, moderately good performance on both will be favored over extremely good performance on one and poor performance on the other.
+The evaluation metric for this competition is **Mean F1-Score**. The F1 metric weights recall and precision equally, and a good retrieval algorithm will maximize both precision and recall simultaneously. Thus, moderately good performance on both will be favoured over extremely good performance on one and poor performance on the other.
 
-The Mean F1-Score in kaggle is same to [sklearn.metrics.f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html) with average = 'micro'.
+The Mean F1 Score in Kaggle is the same as [sklearn.metrics.f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html), with an average of 'micro'.
 
-In your report, you can either use token-based or entity-based performance measure.
+In your report, you can either use token-based or entity-based performance measures.
 
 
 **Leaderboard Submission Format**
@@ -220,9 +220,9 @@ The file should contain a header and have the following format:
 * Each group presents for 8 minutes. There is then 2 minutes for questions.
 * Peer Review Markers must use the attached marking sheet and write comments on each item to justify their mark and provide feedback to others.
 
-**Marking Criteria: [Link]()**
+**Marking Criteria: [Link](https://docs.google.com/document/d/1e7uZSVA4X9Accvw8I52vbcecBMEBgZfGIwseu_hzrNk/edit?usp=sharing)**
 
-**Total**: 8 Marks
+**Total 8 Marks**:
 * **Presentation Skill**: 6 Marks
 * **Peer Review Skill**: 2 Marks
 
