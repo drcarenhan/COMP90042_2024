@@ -42,7 +42,7 @@ If you want to change your group to individual, you can revise it by the Project
 NOTE: If you do not respond your group member by the Group Revision Due, and your group member requests for working as an individual, you must work the Project individually (or without that team member).
 
 **Leaderboard**
-The leaderboard competition will run from 16 April to 24 May, 2024, 11:59PM. Note that the closing date is two days before the Final Submission due date.
+The leaderboard competition will run from 26 April to 24 May, 2024, 11:59PM. Note that the closing date is two days before the Final Submission due date.
 
 
 
