@@ -216,10 +216,13 @@ Consider using the following section structure, though you may use a different s
 * **Evaluation method**: Describe the evaluation metric(s) you use, plus any other details necessary to understand your evaluation. Some projects will have clear metrics from prior work on given datasets, but we realize that other projects will define their own metrics. If you’re defining your own metrics, be clear as to what you’re hoping to measure with each evaluation method (whether quantitative or qualitative, automatic
 or human-defined!), and how it’s defined.
 * **Experimental details**: Report how you ran your experiments (e.g., model configurations, learning rate, training time, etc.)
-* **Results**: Report the quantitative results that you have found so far. Use a table or plot to compare results and compare against baselines. You can also report dev set results if you like.
+
+**Results**: Report the quantitative results that you have found so far. Use a table or plot to compare results and compare against baselines. You can also report dev set results if you like.
 When you write results, please be aware of the following questions: Are they what you expected?; Better than you expected?; Is It worse than you expected?; Why do you think that is?; What does that tell you about your approach?
-* **Conclusion**. Summarise the main findings of your project, and what you have learnt. Highlight your achievements, and note the primary limitations of your work. If you like, you can describe avenues for future work.
-* **References** Your references section should be produced using BibTeX. (If you use word, make sure you are using the standard reference format)
+
+**Conclusion**. Summarise the main findings of your project, and what you have learnt. Highlight your achievements, and note the primary limitations of your work. If you like, you can describe avenues for future work.
+
+**References** Your references section should be produced using BibTeX. (If you use word, make sure you are using the standard reference format)
 
 **Note that We DO NOT MARK the Documentation if it is NOT implemented as described in the report.**
 
