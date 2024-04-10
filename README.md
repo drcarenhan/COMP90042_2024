@@ -194,15 +194,32 @@ We prefer you to use LATEX, but you are permitted to use Word. You must include 
 
 The report should be submitted as a PDF and contain **no more than five(5)** A4 pages of content, excluding references. An appendix is NOT allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
-A report should be submitted with a description, analysis, and comparative assessment of the methods used. You should describe your methods in enough detail that we could replicate them without looking at your code. You should mention any choices you made in implementing your system along with empirical justification for those choices using the development set. You should also detail both your development performance and the **Final
-Evaluation** performance on the Kaggle leaderboard (and in your submitted code and running log). You should use tables and the appropriate charts to report your results/findings.
+Consider using the following section structure, though you may use a different structure.
 
-The description of your method should be clear and concise. You should write it at a level that a Masters student could read and understand without difficulty. If you use any existing algorithms, you do not have to rewrite the complete description, but must provide a summary that shows your understanding and you should provide a citation to reference(s) in the relevant literature. In the report, we will be very interested in seeing evidence
-of your thought processes and reasoning for choosing one approach over another (as indicated by the heavier weighting of the “soundness” criteria).
+**Title** The title of your project and Group Number
 
-The report should include the evaluation setup, including dataset description, baseline, and implementation details. You need to describe the setup environment and hyperparameter you used (e.g., input embedding dimension, epochs, learning rate, optimiser). Please check the Evaluation (Dataset, Baselines, Implementations) section in the paper [Knowledge-aware Named Entity Recognition with Alleviating Heterogeneity](https://ojs.aaai.org/index.php/AAAI/article/view/17603/17410) Nie et al., AAAI 2020.
+**Team contributions** If you are a multi-person team, briefly describe the contributions of each member of the team.
 
-**The justification MUST be based on the previous literature reference (incl. international conference or journal publication) or empirical evaluation. (Check the definition of 'empirical evaluation' at the following FAQ Section). **
+**Abstract**. An abstract should concisely (less than 300 words) motivate the problem, describe your aims, describe your contribution, and highlight your main finding(s).
+
+**Introduction** The introduction explains the problem, why it’s difficult, interesting, or important, how and why current methods succeed/fail at the problem, and explains the key ideas of your approach and results. Though an introduction covers similar material as an abstract, the introduction gives more space for motivation, detail, and references to existing work and captures the reader’s interest.
+
+**Approach** This section details your approach(es) to the problem. For example, this is where you describe the architecture of your neural network(s), and any other key methods or algorithms.
+* You should be specific when describing your main approaches – you probably want to include equations and figures.
+* You should also describe your baseline(s). Depending on space constraints, and how standard your baseline is, you might do this in detail, or simply refer the reader to some other paper for the details. Default project teams can do the latter when describing the provided baseline model.
+* If any part of your approach is original, make it clear (so we can give you credit!). For models and techniques that aren’t yours, provide references
+* If you’re using any code that you didn’t write yourself, make it clear and provide a reference or link. When describing something you coded yourself, make it clear (so we can give you credit!).
+* As you’re setting up equations, notation, and the like, be sure to agree on a fixed technical vocabulary (that you’ve defined, or is well-defined in the literature) before writing and use it consistently throughout the report! This will make it easier for the Teaching Team to follow and is nice practice for research writing in general
+
+**Experiments**. This section contains the following. 
+* **Data**: Describe the dataset(s) you are using (provide references). If it’s not already clear, make sure the associated task is clearly described. 
+* **Evaluation method**: Describe the evaluation metric(s) you use, plus any other details necessary to understand your evaluation. Some projects will have clear metrics from prior work on given datasets, but we realize that other projects will define their own metrics. If you’re defining your own metrics, be clear as to what you’re hoping to measure with each evaluation method (whether quantitative or qualitative, automatic
+or human-defined!), and how it’s defined.
+* **Experimental details**: Report how you ran your experiments (e.g., model configurations, learning rate, training time, etc.)
+* **Results**: Report the quantitative results that you have found so far. Use a table or plot to compare results and compare against baselines. You can also report dev set results if you like.
+When you write results, please be aware of the following questions: Are they what you expected?; Better than you expected?; Is It worse than you expected?; Why do you think that is?; What does that tell you about your approach?
+* **Conclusion**. Summarise the main findings of your project, and what you have learnt. Highlight your achievements, and note the primary limitations of your work. If you like, you can describe avenues for future work.
+* **References** Your references section should be produced using BibTeX. (If you use word, make sure you are using the standard reference format)
 
 **Note that We DO NOT MARK the Documentation if it is NOT implemented as described in the report.**
 
@@ -245,11 +262,6 @@ Note that we will be running peer reviewing for the report shortly after the pro
 The leaderboard submission is optional. 
 The top 10 groups in the private leaderboard will receive 3 bonus marks.
 The top 11 to 30 groups in the private leaderboard will receive 1 bonus mark.
-The evaluation metric for this competition is **Mean F1-Score**. The F1 metric weights recall and precision equally, and a good retrieval algorithm will maximize both precision and recall simultaneously. Thus, moderately good performance on both will be favoured over extremely good performance on one and poor performance on the other.
-
-The Mean F1 Score in Kaggle is the same as [sklearn.metrics.f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html), with an average of 'micro'.
-
-In your report, you can either use token-based or entity-based performance measures.
 
 
 **Leaderboard Submission Format**
