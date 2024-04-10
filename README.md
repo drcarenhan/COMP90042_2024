@@ -28,8 +28,8 @@ The Important date for the Project can be summarised as follows:
 - **Project Group Release Date**: 12 April 2024 
 - **Project Group Revision Due**: 16 April 2024 
 - **Project Group Presentation**: Week 12 (at your workshop - 20 May - 24 May 2024) 
-- **Project Leaderboard**: 16 April - 24 May 2024 **(no extensions possible for the leaderboard)**
-- **Project Final Submission Due**:  26 May 2024 **(no extension for the final submissions 2 days before deadline)**
+- **Project Leaderboard Competition**: 16 April - 24 May 2024 **(no extensions possible for the leaderboard)**
+- **Project Final Submission Due**:  26 May 2024 **(no extension will be given less than 2 days before deadline)**
 
 
 All deadlines are **11:59 PM (Melbourne Time- AEST)**.
@@ -42,7 +42,7 @@ If you want to change your group to individual, you can revise it by the Project
 NOTE: If you do not respond your group member by the Group Revision Due, and your group member requests for working as an individual, you must work the Project individually (or without that team member).
 
 **Leaderboard**
-The leaderboard will be opened from 16 April to 24 May, 2024, 11:59PM, which is two days before the Project submission due.
+The leaderboard competition will run from 16 April to 24 May, 2024, 11:59PM. Note that the closing date is two days before the Final Submission due date.
 
 
 
@@ -123,13 +123,13 @@ You will use the test set (test-claims-unlabelled.json) to participate in the Co
 **Project Rules**
 
 You MUST follow the rules below. If not, your project submission will NOT be marked.
-1) You can use only the following models, including RNN, LSTM, Bi-LSTM, GRU, Bi-GRU, and Transformer. However, you MUST NOT directly use the existing state-of-the-art (SOTA) architecture as it is but need to modify it and propose your own model. For example, you MUST NOT directly use the SOTA model or Off-the-shelf code without any modification.
+1) You're encouraged to explore different models for the task, but in terms of sequence processing components you MUST use one of the following architectures: RNN, LSTM, GRU, and Transformer. [JHL: we could soften this and say you can design model based on a publication but you must implement the model yourself (i.e. you can't use open-source code of the model); but not sure how we can police this] However, you MUST NOT directly use the existing state-of-the-art (SOTA) architecture as it is but need to modify it and propose your own model. For example, you MUST NOT directly use the SOTA model or Off-the-shelf code without any modification.
 
-2) You MUST NOT use any pretrained model weights or large language model weight from any sources, and MUST NOT fine-tune it; You can use pretrained language models or word embeddings.
+2) You MUST NOT use any pretrained model weights or large language model weight from any sources, and MUST NOT fine-tune it; You can use pretrained language models or word embeddings. [JHL: there seems to be a contradiction here, I'd also give examples, e.g. you cannot use pretrained checkpoints of BERT, or S-BERT, etc]
 
 3) The model described in the report MUST NOT differ from the submitted code and running log in the submitted ipynb file.
 
-4) You can use packages or code from the Courses (except pretrained models). If you use/refer to any other package or code, please put the reference at the bottom of the code. Otherwise, it will be considered as plagiarism.
+4) You can use code from the workshop (provided that they don't conflict with the first and second rule). If you use/refer to any other package or code, please put the reference at the bottom of the code. Otherwise, it will be considered as plagiarism.
 
 5) You MUST NOT submit the prediction result (to the codalab leaderboard) that is not produced from your code
 
@@ -137,7 +137,7 @@ You MUST follow the rules below. If not, your project submission will NOT be mar
 
 7) You MUST NOT use models that cannot be run on Colab (e.g. very large models that don’t fit on the GPU on Colab)
 
-8) You MUST use the given code template.
+8) You MUST use the given code template. [JHL: link to section/code template]
 
 9) You MUST train your system using only the provided data, which includes a training, a development and a test set; see the instructions in “Datasets” below for information on their format and usage. 
 
@@ -194,7 +194,7 @@ We prefer you to use LATEX, but you are permitted to use Word. You must include 
 
 The report should be submitted as a PDF and contain **no more than five(5)** A4 pages of content, excluding references. An appendix is NOT allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
-Consider using the following section structure, though you may use a different structure.
+Below is a suggested report structure:
 
 **Title** The title of your project and Group Number
 
@@ -224,7 +224,7 @@ When you write results, please be aware of the following questions: Are they wha
 
 **References** Your references section should be produced using BibTeX. (If you use word, make sure you are using the standard reference format)
 
-**Note that We DO NOT MARK the Documentation if it is NOT implemented as described in the report.**
+**Note that We DO NOT MARK the report if it's not a faithful description of the implemented system (i.e. the submitted system is different to what is described in the report).**
 
 
 
@@ -241,10 +241,10 @@ When you write results, please be aware of the following questions: Are they wha
 (file name: COMP90042_your_groupid.ipynb or  COMP90042_your_groupid.zip)
 - zip file: A zip file that contains trained models, dataset, readme - if necessary, and all other required files that you used for your program.
 (file name: COMP90042_your_groupid_resource.zip)
-
+[JHL: I'd just put the last two together as a zip file that contains ipynb or python files + a README + scripts (we probably don't want trained model checkpoints, which can be quite big)
 
 Note that we will be running peer reviewing for the report shortly after the project has been completed. Please note that you should be uploading a single PDF document for your report and a single zip file for your code; **all other formats are not allowed, e.g. docx, 7z, rar, etc. Your submission will not be marked and will be given a score of 0 if you use these other formats.** You do not need to upload your data files to the zip (e.g., the evidence passages).
-
+[JHL: this line currently contradicts the previous paragraph]
 
 
 **Your submissions will be graded as follows:**
@@ -269,6 +269,7 @@ The top 11 to 30 groups in the private leaderboard will receive 1 bonus mark.
 
 **Leaderboard Submission Format**
 
+[JHL: there's implication if we make it optional, this means they won't have a 'final evaluation' results that they can report]
 Joining the competition on Codalab is optional. The Codalab competition link will be announced on Canvas at a later date (16 April).
 
 You must use your student.unimelb.edu.au address email to join the competition (via the “Participate” tab), and you are not permitted to join the competition with multiple email accounts. 
@@ -291,10 +292,10 @@ Note that Codalab allows only 3 submissions per user per day, so please only upl
 
 ## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" />Week 12 Presentation and Peer Review
 **YOU MUST Attend Week 12 Workshop**
-* **The description will be released in Week 8.**
 * The presentation allows students to communicate their project background, project aims, methods, results and importance, limitations, conclusions, and future work to a group of peers (students and Academic staff). Students are assessed on their presentation skills, visual communication skills, technical content of the presentation and their answers to questions.
 * Each group presents for 8 minutes. There is then 2 minutes for questions.
 * Peer Review Markers must use the attached marking sheet and write comments on each item to justify their mark and provide feedback to others.
+* **More information on the peer review process will be released in Week 8.**
 
 **Marking Criteria: [Link](https://docs.google.com/document/d/1e7uZSVA4X9Accvw8I52vbcecBMEBgZfGIwseu_hzrNk/edit?usp=sharing)**
 
