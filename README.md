@@ -291,6 +291,7 @@ Note that Codalab allows only 3 submissions per user per day, so please only upl
 
 ## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" />Week 12 Presentation and Peer Review
 **YOU MUST Attend Week 12 Workshop**
+* **The description will be released in Week 8.**
 * The presentation allows students to communicate their project background, project aims, methods, results and importance, limitations, conclusions, and future work to a group of peers (students and Academic staff). Students are assessed on their presentation skills, visual communication skills, technical content of the presentation and their answers to questions.
 * Each group presents for 8 minutes. There is then 2 minutes for questions.
 * Peer Review Markers must use the attached marking sheet and write comments on each item to justify their mark and provide feedback to others.
