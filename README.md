@@ -235,12 +235,12 @@ When you write results, please be aware of the following questions: Are they wha
 **Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2024)
 
 **You Must Submit Two Files:**
-- pdf file: a report (documentation) with the given template [ACL template](https://github.com/acl-org/acl-style-files) 
+- **pdf file**: a report (documentation) with the given template [ACL template](https://github.com/acl-org/acl-style-files) 
 (file name: COMP90042_your_groupid.pdf)
-- zip file: A zip file that contains 1)ipynb file or python packages (An ipynb file or python package that includes all your implementation (the code should be in the following sections - dataset, model, testing). You MUST use this [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing)), 2) readme file (if you have any), and/or 3) chatGPT (or any LLM-based system) prompt/script that you used for the report/program
+- **zip file**: A zip file that contains **1)** ipynb file or python packages (An ipynb file or python package that includes all your implementation (the code should be in the following sections - dataset, model, testing). You MUST use this [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing)), **2)** Readme file (if you have any), and/or **3)** chatGPT (or any LLM-based system) prompt/script that you used for the report/program
 (file name: COMP90042_your_groupid_resource.zip)
 
-Note that we will be running peer reviewing for the report shortly after the project has been completed. Please note that you should be uploading a single PDF document for your report and a single zip file for your code; **all other formats are not allowed, e.g. docx, 7z, rar, etc. Your submission will not be marked and will be given a score of 0 if you use these other formats.** You do not need to upload your data files to the zip (e.g., the evidence passages).
+Note that we will be running peer reviewing for the report shortly after the project has been completed. Please note that you should upload a single PDF document for your report and a single zip file for your code; **all other formats are not allowed, e.g. docx, 7z, rar, etc. Your submission will not be marked and will be given a score of 0 if you use these other formats.** You do not need to upload your data files to the zip (e.g., the evidence passages).
 [JHL: this line currently contradicts the previous paragraph]
 
 
