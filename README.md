@@ -305,11 +305,4 @@ Note that Codalab allows only 3 submissions per user per day, so please only upl
 
 
 ## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" />FAQ
-**Question: My Model performs really bad (Low F1). What did I do wrong?**<br/>
-Answer: Please don't worry about the low performance as our training dataset is very small and your model is very basic deep learning model. Of course, there is something wrong with your code if it comes out below the baseline.
-
-**Question: Do I need to save the word embedding model?**<br/>
-Answer: We highly recommend you to save your best word embedding model (if you have), and load it when you use it in your code. Otherwise, it is sometimes removed and overwrite all your code so that you need to re-run the whole code again.
-
-**Question: What do I need to write in the justification or explanation? How much do I need to articulate?**<br/>
-Answer: We recommend conducting empirical evaluation. Empirical evaluation refers to the appraisal of a theory by observation in experiments. The key to good empirical evaluation is the proper design and execution of the experiments so that the particular factors to be tested can be easily separated from other confounding factors. Hence, visualising the comparison of different testing results is a good way to justify your decision. Explain the trends based on your understanding. You can find another way (other than comparing different models) as well - like citing the peer-reviewed publications. 
+**The FAQ will be updated based on the student's questions.
