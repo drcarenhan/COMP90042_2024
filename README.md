@@ -234,14 +234,11 @@ When you write results, please be aware of the following questions: Are they wha
 ## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" />Project Submission Method and Grading
 **Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2024)
 
-**You Must Submit Three Files:**
+**You Must Submit Two Files:**
 - pdf file: a report (documentation) with the given template [ACL template](https://github.com/acl-org/acl-style-files) 
 (file name: COMP90042_your_groupid.pdf)
-- ipynb file or python packages (.py files): An ipynb file or python package that includes all your implementation (the code should be in the following sections - dataset, model, testing). You MUST use this [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing)
-(file name: COMP90042_your_groupid.ipynb or  COMP90042_your_groupid.zip)
-- zip file: A zip file that contains trained models, dataset, readme - if necessary, and all other required files that you used for your program.
+- zip file: A zip file that contains 1)ipynb file or python packages (An ipynb file or python package that includes all your implementation (the code should be in the following sections - dataset, model, testing). You MUST use this [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing)), 2) readme file (if you have any), and/or 3) chatGPT (or any LLM-based system) prompt/script that you used for the report/program
 (file name: COMP90042_your_groupid_resource.zip)
-[JHL: I'd just put the last two together as a zip file that contains ipynb or python files + a README + scripts (we probably don't want trained model checkpoints, which can be quite big)
 
 Note that we will be running peer reviewing for the report shortly after the project has been completed. Please note that you should be uploading a single PDF document for your report and a single zip file for your code; **all other formats are not allowed, e.g. docx, 7z, rar, etc. Your submission will not be marked and will be given a score of 0 if you use these other formats.** You do not need to upload your data files to the zip (e.g., the evidence passages).
 [JHL: this line currently contradicts the previous paragraph]
