@@ -137,7 +137,7 @@ You MUST follow the rules below. If not, your project submission will NOT be mar
 
 7) You MUST NOT use models that cannot be run on Colab (e.g. very large models that don’t fit on the GPU on Colab)
 
-8) You MUST use the given code template. [JHL: link to section/code template]
+8) You MUST use the given [code template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing).
 
 9) You MUST train your system using only the provided data, which includes a training, a development and a test set; see the instructions in “Datasets” below for information on their format and usage. 
 
