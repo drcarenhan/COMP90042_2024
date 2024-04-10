@@ -270,7 +270,7 @@ The top 11 to 30 groups in the private leaderboard will receive 1 bonus mark.
 **Leaderboard Submission Format**
 
 [JHL: there's implication if we make it optional, this means they won't have a 'final evaluation' results that they can report]
-Joining the competition on Codalab is optional. The Codalab competition link will be announced on Canvas at a later date (16 April).
+Joining the competition on Codalab is optional. The Codalab competition link will be announced on Canvas at a later date (26 April).
 
 You must use your student.unimelb.edu.au address email to join the competition (via the “Participate” tab), and you are not permitted to join the competition with multiple email accounts. 
 Any student who is found to have participated with multiple accounts will be automatically suspended from the competition and graded zero for the project.
