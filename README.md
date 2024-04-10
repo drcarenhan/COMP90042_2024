@@ -192,7 +192,7 @@ Note that this is not a realistic baseline, and you might find that your system 
 
 We prefer you to use LATEX, but you are permitted to use Word. You must include your student number under the title (using the \author field in LATEX and enabling the \aclfinalcopy option), but not your name to facilitate anonymous peer reviewing. We will not accept reports that are longer than the stated limits above, or otherwise violate the style requirements.
 
-The report should be submitted as a PDF and contain no more than five(5)** A4 pages of content, excluding references. An appendix is not allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
+The report should be submitted as a PDF and contain **no more than five(5)** A4 pages of content, excluding references. An appendix is NOT allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
 A report should be submitted with a description, analysis, and comparative assessment of the methods used. You should describe your methods in enough detail that we could replicate them without looking at your code. You should mention any choices you made in implementing your system along with empirical justification for those choices using the development set. You should also detail both your development performance and the **Final
 Evaluation** performance on the Kaggle leaderboard (and in your submitted code and running log). You should use tables and the appropriate charts to report your results/findings.
