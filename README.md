@@ -123,7 +123,7 @@ You will use the test set (test-claims-unlabelled.json) to participate in the Co
 **Project Rules**
 
 You MUST follow the rules below. If not, your project submission will NOT be marked.
-1) You can use different types of sequence models, such as RNN, LSTM, Bi-LSTM, GRU, Bi-GRU, Transformer, even PLM or LLM, etc. However, you MUST NOT directly use the existing state-of-the-art (SOTA) architecture as it is but need to modify it and propose your own model. For example, you MUST NOT directly use the SOTA model (i.e. BERT) without any modification.
+1) You can use only the following models, including RNN, LSTM, Bi-LSTM, GRU, Bi-GRU, and Transformer. However, you MUST NOT directly use the existing state-of-the-art (SOTA) architecture as it is but need to modify it and propose your own model. For example, you MUST NOT directly use the SOTA model or Off-the-shelf code without any modification.
 
 2) You MUST NOT use any pretrained model weights or large language model weight from any sources, and MUST NOT fine-tune it; You can use pretrained language models or word embeddings.
 
