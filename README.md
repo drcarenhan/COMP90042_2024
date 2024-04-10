@@ -127,7 +127,7 @@ You MUST follow the rules below. If not, your project submission will NOT be mar
 
 2) You MUST NOT use any pretrained model weights or large language model weight from any sources, and MUST NOT fine-tune it; You can use pretrained language models or word embeddings. [JHL: there seems to be a contradiction here, I'd also give examples, e.g. you cannot use pretrained checkpoints of BERT, or S-BERT, etc]
 
-3) The model described in the report MUST NOT differ from the submitted code and running log in the submitted ipynb file.
+3) The model described in the report MUST NOT differ from the submitted code and running log in the submitted ipynb file. YOU SHOULD include the running log (with the reported result/performance) in the submitted ipynb file. 
 
 4) You can use code from the workshop (provided that they don't conflict with the first and second rule). If you use/refer to any other package or code, please put the reference at the bottom of the code. Otherwise, it will be considered as plagiarism.
 
@@ -241,7 +241,6 @@ When you write results, please be aware of the following questions: Are they wha
 (file name: COMP90042_your_groupid_resource.zip)
 
 Note that we will be running peer reviewing for the report shortly after the project has been completed. Please note that you should upload a single PDF document for your report and a single zip file for your code; **all other formats are not allowed, e.g. docx, 7z, rar, etc. Your submission will not be marked and will be given a score of 0 if you use these other formats.** You do not need to upload your data files to the zip (e.g., the evidence passages).
-[JHL: this line currently contradicts the previous paragraph]
 
 
 **Your submissions will be graded as follows:**
@@ -266,8 +265,8 @@ The top 11 to 30 groups in the private leaderboard will receive 1 bonus mark.
 
 **Leaderboard Submission Format**
 
-[JHL: there's implication if we make it optional, this means they won't have a 'final evaluation' results that they can report]
-Joining the competition on Codalab is optional. The Codalab competition link will be announced on Canvas at a later date (26 April).
+Joining the competition on Codalab is optional. The Codalab competition link will be announced on Canvas later (26 April).
+If you do not join the competition, you need to make sure adding the running log in the code file (ipynb file).
 
 You must use your student.unimelb.edu.au address email to join the competition (via the “Participate” tab), and you are not permitted to join the competition with multiple email accounts. 
 Any student who is found to have participated with multiple accounts will be automatically suspended from the competition and graded zero for the project.
