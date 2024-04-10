@@ -3,9 +3,6 @@
 This assignment can be done individually or in teams of two or three or four(max). We strongly encourage healthy collaboration. See the [University of Melbourne Working in Groups Guide](https://students.unimelb.edu.au/academic-skills/resources/communicating-in-class/communicating-with-peers/working-in-groups). 
 If your team member does not collaborate, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) with describing the contributions of each collaborator. We strongly recommend to start working early so that you will have ample time to discover stumbling blocks and ask questions.
 
-In this assignment, you will work on proposing and implementing a model/framework for Named Entity Recognition (NER) from the defence corpus. The detailed information for the implementation and submission step are specified in the following sections. Note that lecture note and workshop exercises would be a good starting point and baseline for the assignment [especially, Lecture XX/Lab XX].
-Note that we specified which lectures and labs are highly related!
-
 You are free to design the architecture using any of the techniques learned from our lectures and labs. For training and evaluation, we provide you a benchmark dataset in split of training, validation and test. You will use the training and validation set for training/validation while using the test set for leaderboard submission. 
 
 For this assignment, **instead of solely focusing on achieving higher performance, having the novel architecture design & implementation with detailed justification and empirical evaluation will be important to show you’ve fully reached our expectation in this assignment.**
@@ -31,8 +28,8 @@ The Important date for the Project can be summarised as follows:
 - **Project Group Release Date**: 12 April 2024 
 - **Project Group Revision Due**: 16 April 2024 
 - **Project Group Presentation**: Week 12 (at your workshop - 20 May - 24 May 2024) 
-- **Project Leaderboard**: 16 April - 24 May 2024 
-- **Project Final Submission Due**:  26 May 2024 
+- **Project Leaderboard**: 16 April - 24 May 2024 **(no extensions possible for the leaderboard)**
+- **Project Final Submission Due**:  26 May 2024 **(no extension for the final submissions 2 days before deadline)**
 
 
 All deadlines are **11:59 PM (Melbourne Time- AEST)**.
@@ -56,20 +53,21 @@ The leaderboard will be opened from 16 April to 24 May, 2024, 11:59PM, which is 
 | :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
 
-**WILL ADD ONE FIGURE TO DESCRIBE THIS NER TASK**
+The impact of climate change on humanity is a significant concern. However, the increase in unverified statements regarding climate science has led to a distortion of public opinion, underscoring the importance of conducting fact-checks on claims related to climate science. Consider the following claim and related evidence:
+
+**Claim**: The Earth’s climate sensitivity is so low that a doubling of atmospheric CO2 will result in a surface temperature change on the order of 1°C or less.
+
+**Evidence:**
+
+1. In his first paper on the matter, he estimated that global temperature would rise by around 5 to 6 °C (9.0 to 10.8 °F) if the quantity of CO 2 was doubled.
+2. The 1990 IPCC First Assessment Report estimated that equilibrium climate sensitivity to a doubling of CO2 lay between 1.5 and 4.5 °C (2.7 and 8.1 °F), with a "best guess in the light of current knowledge" of 2.5 °C (4.5 °F).
 
 
-**Data And Input**
-For this Project, you are to use PART OF the [re3d dataset](https://github.com/juand-r/entity-recognition-datasets/tree/master/data/re3d) from Defense Science and Technology Laboratory, U.K., which focuses on named entity extraction relevant to somebody operating in the role of a defence and security intelligent analyst. You are provided with three files (train, val, test)
+It should not be difficult to see that the claim is not supported by the evidence passages, and assuming the source of the evidence is reliable, such a claim is misleading. The challenge of the project is to develop an automated fact-checking system where given a claim, the goal is to find related evidence passages from a knowledge source and classify whether the claim is supported by the evidence.
 
-**Data Download and Load**
-Please go to the [Data page](https://www.kaggle.com/c/2021-comp5046-a2/data) in order to download and see more detailed information about the dataset.
-Make sure that you load the dataset via google drive. (If you want to use Jupyter notebook, you can submit your dataset in the zip file)
+More concretely, you will be provided a list of claims and a corpus containing a large number evidence passages (the “knowledge source”), and your system must: (1) search for the most related evidence passages from the knowledge source given the claim; and (2) classify the status of the claim given the evidence in the following 4 classes: {SUPPORTS, REFUTES, NOT_ENOUGH_INFO, DISPUTED}. To build a successful system, it must be able to retrieve the correct set of evidence passages and classify the claim correctly.
 
-**Data Preprocessing**
-There is no restriction of pre-processing the dataset. You do not have to do data pre-processing if no need. 
-NOTE: There is no deduction even if you do not apply any data pre-processing technique. However, please specify the reason in the report.
-
+Besides system implementation, you must also write a report that describes your fact-checking system, e.g. how the retrieval and classification components work, the reason behind the choices you made and the system’s performance. We hope that you will enjoy the project. To make it more engaging, **we will run the task as a Codalab competition**. You will be competing with other students in the class. The following sections give more details on the data format, system evaluation, grading scheme and use of Codalab. Your assessment will be graded based on your report, your performance in the competition and your code.
 
 <br/>
 
@@ -83,30 +81,28 @@ NOTE: There is no deduction even if you do not apply any data pre-processing tec
 **Project Rules**
 
 You MUST follow the rules below. If not, your project submission will NOT be marked.
-1) You can use the NER model with different types of sequence model, such as RNN, LSTM, Bi-LSTM, GRU, Bi-GRU, Transformer, even PLM or LLM, etc. However, you MUST NOT directly use the existing state-of-the-art (SOTA) architecture as it is but need to modify it and propose your own model. For example, you MUST NOT directly use the SOTA model (i.e. BERT) without any modification.
+1) You can must modify the Transformer model with different types of sequence models, such as RNN, LSTM, Bi-LSTM, GRU, Bi-GRU, Transformer, even PLM or LLM, etc. However, you MUST NOT directly use the existing state-of-the-art (SOTA) architecture as it is but need to modify it and propose your own model. For example, you MUST NOT directly use the SOTA model (i.e. BERT) without any modification.
 
-2) You can use any pretrained model or large langauge model from any sources but MUST NOT fine-tune it
+2) You MUST NOT use any pretrained model weights or large language model weight from any sources, and MUST NOT fine-tune it; You can use pretrained language models or word embeddings.
 
-3) The model described in the report MUST NOT be different from the submitted code and running log in the submitted ipynb file.
+3) The model described in the report MUST NOT differ from the submitted code and running log in the submitted ipynb file.
 
-4) You can use packages or code from the Workshops. If you use/refer any other package or code, please put the reference at the bottom of the code. Otherwise, it will be considered as plagiarism.
+4) You can use packages or code from the Courses (except pretrained models). If you use/refer to any other package or code, please put the reference at the bottom of the code. Otherwise, it will be considered as plagiarism.
 
-5) You MUST NOT submit the prediction result (to the kaggle leaderboard) that is not produced from your code
+5) You MUST NOT submit the prediction result (to the codalab leaderboard) that is not produced from your code
 
 6) Your code MUST NOT use any rule(or condition)-based techniques in the model.
 
-7) You MUST NOT use any testing data when you train your NER model. You are allowed to use only training and validation set that are provided
+7) You MUST NOT use models that cannot be run on Colab (e.g. very large models that don’t fit on the GPU on Colab)
 
 8) You MUST use the given code template.
 
-9) You MUST use only given training, validate, test dataset for training and testing.
-
-10) The code (that you produced) MUST
+9) You MUST train your system using only the provided data, which includes a training, a development and a test set; see the instructions in “Datasets” below for information on their format and usage. 
 
 **Useful Notes**
 1) Please refer to lecture notes, workshop materials, and resources that are covered.
 
-2) Please proceed your own way if we do not specify it in the assignment specification.
+2) Please proceed your way if we do not specify it in the specification.
 
 <br/>
 
@@ -170,6 +166,10 @@ The report should include the evaluation setup, including dataset description, b
 (file name: COMP90042_your_groupid_resource.zip)
 
 
+Note that we will be running peer reviewing for the report shortly after the project has been completed. Please note that you should be uploading a single PDF document for your report and a single zip file for your code; **all other formats are not allowed, e.g. docx, 7z, rar, etc. Your submission will not be marked and will be given a score of 0 if you use these other formats.** You do not need to upload your data files to the zip (e.g., the evidence passages).
+
+
+
 **Your submissions will be graded as follows:**
 | Component  | Criteria | Description  | Marks |
 | ------------- | ------------- | ------------- | ------------- |
@@ -183,8 +183,9 @@ The report should include the evaluation setup, including dataset description, b
 | **Total**  |   |  | **35**  |
 
 
-**Bonus Mark: You should submit the leaderboard with your group number**
+**Leaderboard Bonus Mark**
 
+The leaderboard submission is optional. 
 The top 10 groups in the private leaderboard will receive 3 bonus marks.
 The top 11 to 30 groups in the private leaderboard will receive 1 bonus mark.
 The evaluation metric for this competition is **Mean F1-Score**. The F1 metric weights recall and precision equally, and a good retrieval algorithm will maximize both precision and recall simultaneously. Thus, moderately good performance on both will be favoured over extremely good performance on one and poor performance on the other.
