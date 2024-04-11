@@ -157,7 +157,6 @@ You MUST follow the rules below. Any team that is found to break any of these ru
 **IMPORTANT: please make sure that you check the IMPORTANT NOTES**
 
 **Testing and Leaderboard**
-For this assignment, instead of solely focusing on achieving higher performance, having a good architecture design & implementation with detailed step-by-step justification will be important to show you’ve fully reached our expectations in this assignment.
 
 We provide a script (eval.py) for evaluating your system. This script takes two input files, the ground truth and your predictions, and computes three metrics: (1) F-score for evidence retrieval; (2) accuracy for claim classification; and (3) harmonic mean of the evidence retrieval F-score and claim classification accuracy. Shown below is the output from running predictions of a baseline system on the development set:
 
@@ -172,7 +171,7 @@ The three metrics are computed as follows:
 
 1. Evidence Retrieval F-score (F): computes how well the evidence passages retrieved by the system match the ground truth evidence passages. For each claim, our evaluation considers all the retrieved evidence passages, computes the precision, recall and F-score by comparing them against the ground truth passages, and aggregates the F-scores by averaging over all claims. E.g. given a claim if a system retrieves the following set {evidence-1, evidence-2, evidence-3, evidence-4, evidence-5}, and the ground truth set is {evidence-1, evidence-5, evidence-10}, then precision = 2/5, recall = 2/3, and F-score = 1/2. The aim of this metric is to measure how well the retrieval component of your fact checking system works.
 
-2. Claim Classification Accuracy (A): computes standard classification accuracy for claim label predic- tion, ignoring the set of evidence passages retrieved by the system. This metric assesses solely how well the system classifies the claim, and is designed to understand how well the classification component of your fact checking system works.
+2. Claim Classification Accuracy (A): computes standard classification accuracy for claim label prediction, ignoring the set of evidence passages retrieved by the system. This metric assesses solely how well the system classifies the claim, and is designed to understand how well the classification component of your fact checking system works.
 
 3. Harmonic Mean of F and A: computes the harmonic mean of the evidence retrieval F-score and claim classification accuracy. Note that this metric is computed at the end after we have obtained the aggregate (over all claims) F-score and accuracy. This metric is designed to assess both the retrieval and classification components of your system, and as such will be used as **the main metric for ranking systems on Codalab.**
 
@@ -191,15 +190,13 @@ Note that this is not a realistic baseline, and you might find that your system 
 | :exclamation:  You MUST use the [ACL template](https://github.com/acl-org/acl-style-files) when writing your report.
 |-----------------------------------------|
 
-We prefer you to use LATEX, but you are permitted to use Word. You must include your student number under the title (using the \author field in LATEX and enabling the \aclfinalcopy option), but not your name to facilitate anonymous peer reviewing. We will not accept reports that are longer than the stated limits above, or otherwise violate the style requirements.
+You must use LATEX for writing your report. You must include your group number under the title (using the \author field in LATEX and enabling the \aclfinalcopy option), but not your name. We will not accept reports that are longer than the stated limits below, or otherwise violate the style requirements.
 
-The report should be submitted as a PDF and contain **no more than five(5)** A4 pages of content, excluding references. An appendix is NOT allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
+The report should be submitted as a PDF and contain **no more than five(5)** A4 pages of content, excluding  team contribution and references. An appendix is NOT allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
 Below is a suggested report structure:
 
 **Title** The title of your project and Group Number
-
-**Team contributions** If you are a multi-person team, briefly describe the contributions of each member of the team.
 
 **Abstract**. An abstract should concisely (less than 300 words) motivate the problem, describe your aims, describe your contribution, and highlight your main finding(s).
 
@@ -207,23 +204,22 @@ Below is a suggested report structure:
 
 **Approach** This section details your approach(es) to the problem. For example, this is where you describe the architecture of your neural network(s), and any other key methods or algorithms.
 * You should be specific when describing your main approaches – you probably want to include equations and figures.
-* You should also describe your baseline(s). Depending on space constraints, and how standard your baseline is, you might do this in detail, or simply refer the reader to some other paper for the details. Default project teams can do the latter when describing the provided baseline model.
-* If any part of your approach is original, make it clear (so we can give you credit!). For models and techniques that aren’t yours, provide references
-* If you’re using any code that you didn’t write yourself, make it clear and provide a reference or link. When describing something you coded yourself, make it clear (so we can give you credit!).
-* As you’re setting up equations, notation, and the like, be sure to agree on a fixed technical vocabulary (that you’ve defined, or is well-defined in the literature) before writing and use it consistently throughout the report! This will make it easier for the Teaching Team to follow and is nice practice for research writing in general
+* You should also describe your baseline(s). Depending on space constraints, and how standard your baseline is, you might do this in detail, or simply refer the reader to some other paper for the details.
+* If any part of your approach is original, make it clear (so we can give you credit!). For models and techniques that aren’t yours, provide references.
+* As you’re setting up equations, notation, and the like, be sure to agree on a fixed technical vocabulary (that you’ve defined, or is well-defined in the literature) before writing and use it consistently throughout the report! This will make it easier for the teaching team to follow and is nice practice for research writing in general.
 
 **Experiments**. This section contains the following. 
-* **Data**: Describe the dataset(s) you are using (provide references). If it’s not already clear, make sure the associated task is clearly described. 
-* **Evaluation method**: Describe the evaluation metric(s) you use, plus any other details necessary to understand your evaluation. Some projects will have clear metrics from prior work on given datasets, but we realize that other projects will define their own metrics. If you’re defining your own metrics, be clear as to what you’re hoping to measure with each evaluation method (whether quantitative or qualitative, automatic
-or human-defined!), and how it’s defined.
+* **Evaluation method**: If you’re defining your own metrics (for diagnostic purposes), be clear as to what you’re hoping to measure with each evaluation method (whether quantitative or qualitative, automatic or human-defined!), and how it’s defined.
 * **Experimental details**: Report how you ran your experiments (e.g., model configurations, learning rate, training time, etc.)
 
-**Results**: Report the quantitative results that you have found so far. Use a table or plot to compare results and compare against baselines. You can also report dev set results if you like.
+**Results**: Report the quantitative results that you have found so far. Use a table or plot to compare results and compare against baselines. You must report dev results, and also test results if you participate in the Codalab competition.
 When you write results, please be aware of the following questions: Are they what you expected?; Better than you expected?; Is It worse than you expected?; Why do you think that is?; What does that tell you about your approach?
 
 **Conclusion**. Summarise the main findings of your project, and what you have learnt. Highlight your achievements, and note the primary limitations of your work. If you like, you can describe avenues for future work.
 
-**References** Your references section should be produced using BibTeX. (If you use word, make sure you are using the standard reference format)
+**Team contributions** (doesn't count towards the page limit) If you are a multi-person team, briefly describe the contributions of each member of the team.
+
+**References** (doesn't count towards the page limit) Your references section should be produced using BibTeX.
 
 **Note that We DO NOT MARK the report if it's not a faithful description of the implemented system (i.e. the submitted system is different to what is described in the report).**
 
@@ -236,12 +232,9 @@ When you write results, please be aware of the following questions: Are they wha
 **Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2024)
 
 **You Must Submit Two Files:**
-- **pdf file**: a report (documentation) with the given template [ACL template](https://github.com/acl-org/acl-style-files) 
-(file name: COMP90042_your_groupid.pdf)
-- **zip file**: A zip file that contains **1)** ipynb file or python packages (An ipynb file or python package that includes all your implementation (the code should be in the following sections - dataset, model, testing). You MUST use this [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing)), **2)** Readme file (if you have any), and/or **3)** chatGPT (or any LLM-based system) prompt/script that you used for the report/program
-(file name: COMP90042_your_groupid_resource.zip)
+- **pdf file** (filename format: COMP90042_groupid.pdf): a report using the [ACL template](https://github.com/acl-org/acl-style-files).
 
-Note that we will be running peer reviewing for the report shortly after the project has been completed. Please note that you should upload a single PDF document for your report and a single zip file for your code; **all other formats are not allowed, e.g. docx, 7z, rar, etc. Your submission will not be marked and will be given a score of 0 if you use these other formats.** You do not need to upload your data files to the zip (e.g., the evidence passages).
+- **zip file** (filename format: COMP90042_groupid_resource.zip): A zip file that contains: **1)** ipynb file(s) (You MUST use this [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing)), and **2)** a README file to describe how to run the code if it's not apparent from the documentation in the ipynb files (optional), and **3)** any shell scripts that you use to run your code, e.g. to pre-install packages (optional). Note: you MUST NOT upload any data files or trained model checkpoints.
 
 
 **Your submissions will be graded as follows:**
@@ -253,7 +246,7 @@ Note that we will be running peer reviewing for the report shortly after the pro
 | Content  | Substance  | How much work is done? Is there enough substance?  | 5  |
 | Content  | Novelty  | How novel or ambitious are the techniques or methods?  | 5  |
 | Content  | Results  | Are the results and findings convincing? Are they well articulated?  | 5  |
-| Scholarship  | Citation  | Does the report demonstrate an outstanding ability to critically evaluate the academic validity of primary sources (trustable publication) and use this information to support, unpack or question academic findings?   | 4 |
+| Scholarship  | Citation  | Does the report demonstrate an ability to critically evaluate the validity of primary sources (e.g. research publications) and use this information to support, unpack or question findings?   | 4 |
 | **Total**  |   |  | **35**  |
 
 
