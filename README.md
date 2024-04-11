@@ -76,7 +76,8 @@ You are provided with several files for the project:
 * [train-claims,dev-claims].json: JSON files for the labelled training and development set; 
 * [test-claims-unlabelled].json: JSON file for the unlabelled test set;
 * evidence.json: JSON file containing a large number of evidence passages (i.e. the “knowledge source”); 
-* dev-claims-baseline.json: JSON file containing predictions of a baseline system on the development set; eval.py: Python script to evaluate system performance (see “Evaluation” below for more details).
+* dev-claims-baseline.json: JSON file containing predictions of a baseline system on the development set;
+* eval.py: Python script to evaluate system performance (see “Evaluation” below for more details).
 
 For the labelled claim files (train-claims.json, dev-claims.json), each instance contains the claim ID, claim text, claim label (one of the four classes: {SUPPORTS, REFUTES, NOT_ENOUGH_INFO, DISPUTED}), and a list of evidence IDs. The unlabelled claim file (test-claims-unlabelled.json) has a similar structure, except that it only contains the claim ID and claim text. More concretely, the labelled claim files has the following format:
 
