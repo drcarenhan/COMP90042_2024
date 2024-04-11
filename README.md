@@ -1,11 +1,11 @@
 # COMP90042 Project Description
 
 This assignment can be done individually or in teams of two or three or four(max). We strongly encourage healthy collaboration. See the [University of Melbourne Working in Groups Guide](https://students.unimelb.edu.au/academic-skills/resources/communicating-in-class/communicating-with-peers/working-in-groups). 
-If your team member does not collaborate, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) with describing the contributions of each collaborator. We strongly recommend to start working early so that you will have ample time to discover stumbling blocks and ask questions.
+If your team member does not contribute, please contact the lecturer ([Dr. Caren Han](mailto:caren.han@unimelb.edu.au?subject=[COMP90042]%20Project%20Group)) and explain the situation (e.g. by describing the contributions of each collaborator in your team). We strongly recommend to start working early so that you will have ample time to discover stumbling blocks and ask questions.
 
-You are free to design the architecture using any of the techniques learned from our lectures and labs. For training and evaluation, we provide you a benchmark dataset in split of training, validation and test. You will use the training and validation set for training/validation while using the test set for leaderboard submission. 
+You are free to design the architecture using any of the techniques learned from our lectures and labs (as long as they don't conflict with the project rules (see below). For training and evaluation, we provide you a benchmark dataset in split of training, validation and test. You will use the training and validation set for training/validation while using the test set for leaderboard submission. 
 
-For this assignment, **instead of solely focusing on achieving higher performance, having the novel architecture design & implementation with detailed justification and empirical evaluation will be important to show you’ve fully reached our expectation in this assignment.**
+For this assignment, **instead of solely focusing on achieving higher performance, you should consider exploring novel architecture design and justify your decision processes**, grading is by-and-large based on your research process rather than system performance (see grading details below).
 
 
 **Table of Contents**
@@ -13,33 +13,36 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [1. DataSet](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-1-dataset)
 - [2. Important Notes](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#2important-note)
 - [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#3testing-and-evaluation)
-- [4. Documentation](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#4documentation)
-- [Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#project-submission-method-and-grading)
-- [Week12 Presentation and Peer Review](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#week-12-presentation-and-peer-review)
-- [FAQ](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#faq)
+- [4. Report Writing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#4documentation)
+- [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#project-submission-method-and-grading)
+- [6. Week12 Presentation and Peer Review](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#week-12-presentation-and-peer-review)
+- [7. FAQ](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#faq)
 
 <br/>
 <br/>
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/microsoft/319/calendar_1f4c5.png" width="30" />0.Important Dates
+## <img src="https://em-content.zobj.net/thumbs/120/microsoft/319/calendar_1f4c5.png" width="30" />0. Important Dates
 The Important date for the Project can be summarised as follows:
 - **Project Specification Release Date**: 12 April 2024 
 - **Project Group Release Date**: 12 April 2024 
 - **Project Group Revision Due**: 16 April 2024 
 - **Project Group Presentation**: Week 12 (at your workshop - 20 May - 24 May 2024) 
-- **Project Leaderboard Competition**: 26 April - 24 May 2024 **(no extensions possible for the leaderboard)**
+- **Project Leaderboard Competition Period**: 26 April - 24 May 2024 **(no extensions possible for the leaderboard)**
 - **Project Final Submission Due**:  26 May 2024 **(no extension will be given less than 2 days before deadline)**
 
 
-All deadlines are **11:59 PM (Melbourne Time- AEST)**.
+All deadlines are **11:59 PM (Melbourne Time AEST)**.
+
+[JHL: i struggle to follow the next two bits, questions: (1) what is the relation between line39 and line38?; (2) what is the reason in line39?; and (3) what does line43 mean, specifically the last bracketed statement threw me off a bit]
 
 **Project Group Release**
-**YOU MUST CONTACT YOUR GROUP MEMBER BY THE GROUP REVISION DUE.** Please check the reason as follows.
+**YOU MUST CONTACT YOUR GROUP MEMBER BY THE GROUP REVISION DUE DATE.** Please check the reason as follows.
 
 **Project Group Revision Due**
-If you want to change your group to individual, you can revise it by the Project Group Change Due. However, in this case, you MUST get your team member's agreement.
-NOTE: If you do not respond your group member by the Group Revision Due, and your group member requests for working as an individual, you must work the Project individually (or without that team member).
+If you want to change your group to individual, you can revise it by the Project Group Change Due Date. Please note that you MUST get your team member's agreement prior to making any changes.
+NOTE: If you do not respond your group member by the Group Revision Due Date, and your group member requests to work individually, then you will also work on the project individually (or without that team member).
+
 
 **Leaderboard**
 The leaderboard competition will run from 26 April to 24 May, 2024, 11:59PM. Note that the closing date is two days before the Final Submission due date.
@@ -67,7 +70,7 @@ It should not be difficult to see that the claim is not supported by the evidenc
 
 More concretely, you will be provided a list of claims and a corpus containing a large number evidence passages (the “knowledge source”), and your system must: (1) search for the most related evidence passages from the knowledge source given the claim; and (2) classify the status of the claim given the evidence in the following 4 classes: {SUPPORTS, REFUTES, NOT_ENOUGH_INFO, DISPUTED}. To build a successful system, it must be able to retrieve the correct set of evidence passages and classify the claim correctly.
 
-Besides system implementation, you must also write a report that describes your fact-checking system, e.g. how the retrieval and classification components work, the reason behind the choices you made and the system’s performance. We hope that you will enjoy the project. To make it more engaging, **we will run the task as a Codalab competition (Optional)**. You will be competing with other students in the class. The following sections give more details on the data format, system evaluation, grading scheme and use of Codalab. Your assessment will be graded based on your report, your performance in the competition and your code.
+Besides system implementation, you must also write a report that describes your fact-checking system, e.g. how the retrieval and classification components work, the reason behind the choices you made and the system’s performance. We hope that you will enjoy the project. To make it more engaging, **we will run the task as a Codalab competition (participation is optional; more details below)**. You will be competing with other students in the class. The following sections give more details on the data format, system evaluation, grading scheme and use of Codalab. Your assessment will be graded based on your report, your performance in the competition (in the form of bonus marks) and your code.
 
 
 You are provided with several files for the project:
@@ -76,7 +79,7 @@ You are provided with several files for the project:
 * evidence.json: JSON file containing a large number of evidence passages (i.e. the “knowledge source”); 
 * dev-claims-baseline.json: JSON file containing predictions of a baseline system on the development set; eval.py: Python script to evaluate system performance (see “Evaluation” below for more details).
 
-For the labelled claim files (train-claims.json, dev-claims.json), each instance contains the claim ID, claim text, claim label (one of the four classes: {SUPPORTS, REFUTES, NOT_ENOUGH_INFO, DISPUTED}), and a list of evi- dence IDs. The unlabelled claim file (test-claims-unlabelled.json) has a similar structure, except that it only contains the claim ID and claim text. More concretely, the labelled claim files has the following format:
+For the labelled claim files (train-claims.json, dev-claims.json), each instance contains the claim ID, claim text, claim label (one of the four classes: {SUPPORTS, REFUTES, NOT_ENOUGH_INFO, DISPUTED}), and a list of evidence IDs. The unlabelled claim file (test-claims-unlabelled.json) has a similar structure, except that it only contains the claim ID and claim text. More concretely, the labelled claim files has the following format:
 
 ```
 {
@@ -106,50 +109,46 @@ Given a claim (e.g. claim-2967), your system needs to search and retrieve a list
 
 The training set (train-claims.json) should be used for building your models, e.g. for use in development of features, rules and heuristics, and for supervised/unsupervised learning. You are encouraged to inspect this data closely to fully understand the task.
 
-The development set (dev-claims.json) is formatted like the training set. This will help you make major im- plementation decisions (e.g. choosing optimal hyper-parameter configurations), and should also be used for detailed analysis of your system — both for measuring performance and for error analysis — in the report.
+The development set (dev-claims.json) is formatted like the training set. This will help you make major implementation decisions (e.g. choosing optimal hyper-parameter configurations), and should also be used for detailed analysis of your system — both for measuring performance and for error analysis — in the report.
 
-You will use the test set (test-claims-unlabelled.json) to participate in the Codalab competition. For this reason no labels (i.e. the evidence passages and claim labels) are provided for this partition. You are allowed (and encouraged) to train your final system on both the training and development set so as to maximise per- formance on the test set, but you should not at any time manually inspect the test dataset; any sign that you have done so will result in loss of marks. In terms of the format of the system output, we have provided dev-claims-predictions.json for this. Note: you’ll notice that it has the same format as the labelled claim files (train-claims.json or dev-claims.json), although the claim_text field is optional (i.e. we do not use this field during evaluation) and you’re free to omit it.
+You will use the test set (test-claims-unlabelled.json) to participate in the Codalab competition. For this reason no labels (i.e. the evidence passages and claim labels) are provided for this partition. You are allowed (and encouraged) to train your final system on both the training and development set so as to maximise performance on the test set, but you should not at any time manually inspect the test dataset; any sign that you have done so will result in loss of marks. In terms of the format of the system output, we have provided dev-claims-predictions.json for this. Note: you’ll notice that it has the same format as the labelled claim files (train-claims.json or dev-claims.json), although the claim_text field is optional (i.e. we do not use this field during evaluation) and you’re free to omit it.
 
 
 <br/>
 
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/desktop-computer_1f5a5-fe0f.png" width="30" />2.Important Note
+## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/desktop-computer_1f5a5-fe0f.png" width="30" />2. Important Note
 
 | :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
 
 **Project Rules**
 
-You MUST follow the rules below. If not, your project submission will NOT be marked.
-1) You're encouraged to explore different models for the task, but in terms of sequence processing components you MUST use one of the following architectures: RNN, LSTM, GRU, and Transformer. [JHL: we could soften this and say you can design model based on a publication but you must implement the model yourself (i.e. you can't use open-source code of the model); but not sure how we can police this] However, you MUST NOT directly use the existing state-of-the-art (SOTA) architecture as it is but need to modify it and propose your own model. For example, you MUST NOT directly use the SOTA model or Off-the-shelf code without any modification.
+You MUST follow the rules below. Any team that is found to break any of these rules will NOT be marked.
 
-2) You MUST NOT use any pretrained model weights or large language model weight from any sources, and MUST NOT fine-tune it; You can use pretrained language models or word embeddings. [JHL: there seems to be a contradiction here, I'd also give examples, e.g. you cannot use pretrained checkpoints of BERT, or S-BERT, etc]
+1) You're encouraged to explore different models for the task, but in terms of sequence processing components you MUST use one of the following architectures: RNN, LSTM, GRU, and Transformer. You are allowed to use deep-learning libraries (e.g. pytorch) to import these sequence processing components (i.e. you do not have to code RNN from scratch). You should read relevant publications to come up with a sensible design for your fact-checking system, but you MUST NOT copy any open-source code from any publications (in other words, you MUST implement the fact-checking system yourself).
 
-3) The model described in the report MUST NOT differ from the submitted code and running log in the submitted ipynb file. YOU SHOULD include the running log (with the reported result/performance) in the submitted ipynb file. 
+2) You MUST NOT use any pretrained word embeddings (e.g. Word2Vec), pretrained language model weights or checkpoints (e.g. BERT checkpoints), or any closed-source models (OpenAI GPT-3). In other words, you MUST train your system from scratch, using the data provided in the project.
 
-4) You can use code from the workshop (provided that they don't conflict with the first and second rule). If you use/refer to any other package or code, please put the reference at the bottom of the code. Otherwise, it will be considered as plagiarism.
+3) The model described in the report MUST be faithful to the submitted code and running log that you submit. You MUST include the running log (with the reported result/performance) in the submitted ipynb file (more details about submission below). 
 
-5) You MUST NOT submit the prediction result (to the codalab leaderboard) that is not produced from your code
+4) You can use code from the workshop (provided that they don't conflict with any project rules) and no where else (e.g. open source project code from GitHub). The only exception to this rule is that you're allowed to use deep-learning libraries (e.g. pytorch).
 
-6) Your code MUST NOT use any rule(or condition)-based techniques in the model.
+5) You MUST NOT submit the prediction result (to the codalab leaderboard) that is not produced from your code.
 
-7) You MUST NOT use models that cannot be run on Colab (e.g. very large models that don’t fit on the GPU on Colab)
+6) Your code MUST NOT use any rule-based techniques in the model.
 
-8) You MUST use the given [code template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing).
+7) You MUST NOT use models that cannot be run on Colab (e.g. very large models that don’t fit on the GPU on Colab).
 
-9) You MUST train your system using only the provided data, which includes a training, a development and a test set; see the instructions in “Datasets” below for information on their format and usage. 
+8) You MUST use the given [code template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) for development.
 
-**Useful Notes**
-1) Please refer to lecture notes, workshop materials, and resources that are covered.
-
-2) Please proceed your way if we do not specify it in the specification.
+9) You MUST train your system using only the provided data, which includes a training and a development. 
 
 <br/>
 
 
-## <img src="https://em-content.zobj.net/source/skype/289/test-tube_1f9ea.png" width="30" />3.Testing and Evaluation
+## <img src="https://em-content.zobj.net/source/skype/289/test-tube_1f9ea.png" width="30" />3. Testing and Evaluation
 | :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
 
@@ -186,7 +185,7 @@ Note that this is not a realistic baseline, and you might find that your system 
 <br/>
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/facebook/355/page-facing-up_1f4c4.png" width="30" />4.Documentation
+## <img src="https://em-content.zobj.net/thumbs/120/facebook/355/page-facing-up_1f4c4.png" width="30" />4. Report Writing
 | :exclamation:  You MUST use the [ACL template](https://github.com/acl-org/acl-style-files) when writing your report.
 |-----------------------------------------|
 
@@ -231,7 +230,7 @@ When you write results, please be aware of the following questions: Are they wha
 <br/>
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" />Project Submission Method and Grading
+## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" />5. Project Submission Method and Grading
 **Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2024)
 
 **You Must Submit Two Files:**
@@ -286,7 +285,7 @@ Note that Codalab allows only 3 submissions per user per day, so please only upl
 
 
 
-## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" />Week 12 Presentation and Peer Review
+## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" />6. Week 12 Presentation and Peer Review
 **YOU MUST Attend Week 12 Workshop**
 * The presentation allows students to communicate their project background, project aims, methods, results and importance, limitations, conclusions, and future work to a group of peers (students and Academic staff). Students are assessed on their presentation skills, visual communication skills, technical content of the presentation and their answers to questions.
 * Each group presents for 8 minutes. There is then 2 minutes for questions.
@@ -301,5 +300,5 @@ Note that Codalab allows only 3 submissions per user per day, so please only upl
 
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" />FAQ
+## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" />7. FAQ
 **The FAQ will be updated based on the student's questions.
