@@ -135,7 +135,7 @@ You MUST follow the rules below. Any team that is found to break any of these ru
 
 4) The model described in the report MUST be faithful to the submitted code and running log that you submit. You MUST include the running log (with the reported result/performance) in the submitted ipynb file (more details about submission below). 
 
-5) You can use code from the workshop (provided that they don't conflict with any project rules). You MUST NOT use any open source project code from GitHub or other platforms.
+5) You are allowed to use code from the workshop (provided that they don't conflict with any project rules), but you MUST NOT use any open source project code from GitHub or other platforms.
 
 6) You MUST NOT submit the prediction result (to the codalab leaderboard) that is not produced from your code.
 
