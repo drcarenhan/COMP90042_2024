@@ -246,7 +246,7 @@ When you write results, please be aware of the following questions: Are they wha
 | Content  | Substance  | How much work is done? Is there enough substance?  | 5  |
 | Content  | Novelty  | How novel or ambitious are the techniques or methods?  | 5  |
 | Content  | Results  | Are the results and findings convincing? Are they well articulated?  | 5  |
-| Scholarship  | Citation  | Does the report demonstrate an ability to critically evaluate the validity of primary sources (e.g. research publications) and use this information to support, unpack or question findings?   | 4 |
+| Scholarship  | Citation  | Does the report cite relevant publications to drive decision making (e.g. to motivate design choices or to support findings)?   | 4 |
 | **Total**  |   |  | **35**  |
 
 
@@ -255,23 +255,23 @@ When you write results, please be aware of the following questions: Are they wha
 The leaderboard submission is optional. 
 The top 10 groups in the private leaderboard will receive 3 bonus marks.
 The top 11 to 30 groups in the private leaderboard will receive 1 bonus mark.
+Project mark can not exceed 35 marks, including these bonus marks.
 
 
-**Leaderboard Submission Format**
+**Leaderboard Submission Instructions**
 
 Joining the competition on Codalab is optional. The Codalab competition link will be announced on Canvas later (26 April).
-If you do not join the competition, you need to make sure adding the running log in the code file (ipynb file).
+Regardless of whether you join the competition or not, you need to include the output log in the ipynb files for the development set.
 
-You must use your student.unimelb.edu.au address email to join the competition (via the “Participate” tab), and you are not permitted to join the competition with multiple email accounts. 
-Any student who is found to have participated with multiple accounts will be automatically suspended from the competition and graded zero for the project.
+Should you decide to participate, your team must nominate one member to join join the competition (via the “Participate” tab) using their student.unimelb.edu.au address email. Each team can only have 1 member joining the competition. Any team that is found to have participated with multiple accounts will be automatically suspended from the competition and graded zero for the project.
 Once you have joined the competition, please edit your account details by clicking on your login in the top right corner and selecting “Settings”. Set your group number. 
 Submissions which have no group number will not be marked.
 
 To submit your test output, select the “Participate” tab, click the “Ongoing evaluation” button, and then click “Submit”. This will allow you to select a file, which is uploaded to the Codalab server, which will evaluate your results and add an entry to the leaderboard. Your file should be a zip archive containing a single file named test-claims-predictions.json. The JSON file should produce the claim labels and evidence passages for all the claims in test-claims-unlabelled.json. The format of the JSON file should follow the format of the provided baseline system (i.e. dev-claims-baseline.json). The system will produce an error message if the filename is different, as it cannot process your file.
 
-The results are shown on the leaderboard under the “Results” tab, under “Ongoing Evaluation”. The competition ends at on 24th May, after which submissions will no longer be accepted (extensions can not be granted to this deadline). At this point, the “Final Evaluation” results will be revealed. These two sets of results reflect evaluation on different subsets of the test data. The best score on the ongoing evaluation may not be the best on the final evaluation, and we will be using the final evaluation scores in the assessment. The final result of your best submission(s) can now be discussed in the report, which is due at 11.59PM, 26 May 2024.
+The results are shown on the leaderboard under the “Results” tab, under “Ongoing Evaluation”. The competition ends at on 24th May, after which submissions will no longer be accepted (extensions can not be granted to this deadline). At this point, the “Final Evaluation” results will be revealed. These two sets of results reflect evaluation on different subsets of the test data. The best score on the ongoing evaluation may not be the best on the final evaluation, and we will be using the final evaluation scores in the assessment. The final result of your best submission(s) can now be discussed in the report, which is due at 11.59PM, 26 May 2024. Note: if your team did not participate, then you won't have any test results to report, so focus on reporting the development results.
 
-Note that Codalab allows only 3 submissions per user per day, so please only upload your results when you have made a meaningful change to your system. Please do not over-tune your system based on the ongoing test set, as it is very likely to see a performance drop when it’s evaluated on the final test set, since it probably has overfitted on the ongoing test set (we see this every year in COMP90042 projects, where systems that have a large number of submissions during ongoing evaluation see a large drop in ranking once the final evaluation results are released). Note that Codalab is a little slow to respond at times, so you will need to give it a minute or so to process your file and update the result table.
+Note that Codalab allows only 3 submissions per team per day, so please only upload your results when you have made a meaningful change to your system. Please do not over-tune your system based on the ongoing test set, as you are very likely to see a performance drop when it’s evaluated on the final test set, since it probably has overfitted on the ongoing test set (we see this every year in COMP90042 projects, where systems that have a large number of submissions during ongoing evaluation see a large drop in ranking once the final evaluation results are released). Note that Codalab is a little slow to respond at times, so you will need to give it a minute or so to process your file and update the result table.
 
 
 
