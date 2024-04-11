@@ -12,11 +12,11 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [0. Important Dates (Very Important!!)](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-0-important-dates)
 - [1. DataSet](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-1-dataset)
 - [2. Important Notes](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-2-important-notes)
-- [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#3testing-and-evaluation)
-- [4. Report Writing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#4documentation)
-- [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#project-submission-method-and-grading)
-- [6. Week12 Presentation and Peer Review](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#week-12-presentation-and-peer-review)
-- [7. FAQ](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#faq)
+- [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-3-testing-and-evaluation)
+- [4. Report Writing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-4-report-writing)
+- [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-5-project-submission-method-and-grading)
+- [6. Week12 Presentation and Peer Review](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-6-week-12-presentation-and-peer-review)
+- [7. FAQ](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-7-faq)
 
 <br/>
 <br/>
@@ -150,7 +150,7 @@ You MUST follow the rules below. Any team that is found to break any of these ru
 <br/>
 
 
-## <img src="https://em-content.zobj.net/source/skype/289/test-tube_1f9ea.png" width="30" />3. Testing and Evaluation
+## <img src="https://em-content.zobj.net/source/skype/289/test-tube_1f9ea.png" width="30" /> 3. Testing and Evaluation
 | :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
 
@@ -187,7 +187,7 @@ Note that this is not a realistic baseline, and you might find that your system 
 <br/>
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/facebook/355/page-facing-up_1f4c4.png" width="30" />4. Report Writing
+## <img src="https://em-content.zobj.net/thumbs/120/facebook/355/page-facing-up_1f4c4.png" width="30" /> 4. Report Writing
 | :exclamation:  You MUST use the [ACL template](https://github.com/acl-org/acl-style-files) when writing your report.
 |-----------------------------------------|
 
@@ -232,7 +232,7 @@ When you write results, please be aware of the following questions: Are they wha
 <br/>
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" />5. Project Submission Method and Grading
+## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" /> 5. Project Submission Method and Grading
 **Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2024)
 
 **You Must Submit Two Files:**
@@ -287,7 +287,7 @@ Note that Codalab allows only 3 submissions per user per day, so please only upl
 
 
 
-## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" />6. Week 12 Presentation and Peer Review
+## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" /> 6. Week 12 Presentation and Peer Review
 **YOU MUST Attend Week 12 Workshop**
 * The presentation allows students to communicate their project background, project aims, methods, results and importance, limitations, conclusions, and future work to a group of peers (students and Academic staff). Students are assessed on their presentation skills, visual communication skills, technical content of the presentation and their answers to questions.
 * Each group presents for 8 minutes. There is then 2 minutes for questions.
@@ -302,5 +302,5 @@ Note that Codalab allows only 3 submissions per user per day, so please only upl
 
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" />7. FAQ
+## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" /> 7. FAQ
 **The FAQ will be updated based on the student's questions.
