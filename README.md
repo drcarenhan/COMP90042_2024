@@ -11,7 +11,7 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 **Table of Contents**
 - [0. Important Dates (Very Important!!)](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#0important-dates)
 - [1. DataSet](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-1-dataset)
-- [2. Important Notes](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#2important-note)
+- [2. Important Notes](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#2important-notes)
 - [3. Model Testing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#3testing-and-evaluation)
 - [4. Report Writing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#4documentation)
 - [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#project-submission-method-and-grading)
@@ -118,7 +118,7 @@ You will use the test set (test-claims-unlabelled.json) to participate in the Co
 
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/desktop-computer_1f5a5-fe0f.png" width="30" />2. Important Note
+## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/desktop-computer_1f5a5-fe0f.png" width="30" />2. Important Notes
 
 | :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
