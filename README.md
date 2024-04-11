@@ -125,7 +125,7 @@ You will use the test set (test-claims-unlabelled.json) to participate in the Co
 
 **Project Rules**
 
-You MUST follow the rules below. Any team that is found to break any of these rules will NOT be marked.
+You MUST follow the rules below. Any team found to break any of these rules will receive zero mark to their project.
 
 1) You're encouraged to explore different models for the task, but in terms of sequence processing components you MUST use one of the following architectures: RNN, LSTM, GRU, and Transformer. You are allowed to use deep-learning libraries (e.g. pytorch) to import these sequence processing components (i.e. you do not have to code RNN from scratch). You should read relevant publications to come up with a sensible design for your fact-checking system, but you MUST NOT copy any open-source code from any publications (in other words, you MUST implement the fact-checking system yourself).
 
