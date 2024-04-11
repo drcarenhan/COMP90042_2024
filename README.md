@@ -131,19 +131,21 @@ You MUST follow the rules below. Any team that is found to break any of these ru
 
 2) You MUST NOT use any pretrained word embeddings (e.g. Word2Vec), pretrained language model weights or checkpoints (e.g. BERT checkpoints), or any closed-source models (OpenAI GPT-3). In other words, you MUST train your system from scratch, using the data provided in the project.
 
-3) The model described in the report MUST be faithful to the submitted code and running log that you submit. You MUST include the running log (with the reported result/performance) in the submitted ipynb file (more details about submission below). 
+3) The following deep-learning libraries are allowed: pytorch, keras, and tensorflow. Huggingface is not allowed. Standard python libraries (e.g. numpy and matplotlib) and NLP preprocessing toolkits (e.g. NLTK and Spacy) are allowed.
 
-4) You can use code from the workshop (provided that they don't conflict with any project rules) and no where else (e.g. open source project code from GitHub). The only exception to this rule is that you're allowed to use deep-learning libraries (e.g. pytorch).
+4) The model described in the report MUST be faithful to the submitted code and running log that you submit. You MUST include the running log (with the reported result/performance) in the submitted ipynb file (more details about submission below). 
 
-5) You MUST NOT submit the prediction result (to the codalab leaderboard) that is not produced from your code.
+5) You can use code from the workshop (provided that they don't conflict with any project rules) and no where else (e.g. open source project code from GitHub). The only exception to this rule is that you're allowed to use deep-learning libraries (e.g. pytorch).
 
-6) Your code MUST NOT use any rule-based techniques in the model.
+6) You MUST NOT submit the prediction result (to the codalab leaderboard) that is not produced from your code.
 
-7) You MUST NOT use models that cannot be run on Colab (e.g. very large models that don’t fit on the GPU on Colab).
+7) Your code MUST NOT use any rule-based techniques in the model.
 
-8) You MUST use the given [code template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) for development.
+8) You MUST NOT use models that cannot be run on Colab (e.g. very large models that don’t fit on the GPU on Colab).
 
-9) You MUST train your system using only the provided data, which includes a training and a development. 
+9) You MUST use the given [code template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) for development.
+
+10) You MUST train your system using only the provided data, which includes a training and a development. 
 
 <br/>
 
