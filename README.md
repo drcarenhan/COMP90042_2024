@@ -34,18 +34,17 @@ The Important date for the Project can be summarised as follows:
 
 All deadlines are **11:59 PM (Melbourne Time AEST)**.
 
-[JHL: i struggle to follow the next two bits, questions: (1) what is the relation between line39 and line38?; (2) what is the reason in line39?; and (3) what does line43 mean, specifically the last bracketed statement threw me off a bit]
 
-**Project Group Release**
-**YOU MUST CONTACT YOUR GROUP MEMBER BY THE GROUP REVISION DUE DATE.** Please check the reason as follows.
+**Project Group Announcement**
+PLEASE ENSURE COMMUNICATION WITH YOUR GROUP MEMBER BY THE GROUP REVISION DEADLINE. Please take a look at the details below.
 
 **Project Group Revision Due**
-If you want to change your group to individual, you can revise it by the Project Group Change Due Date. Please note that you MUST get your team member's agreement prior to making any changes.
-NOTE: If you do not respond your group member by the Group Revision Due Date, and your group member requests to work individually, then you will also work on the project individually (or without that team member).
+If you wish to switch from a group to an individual status, adjustments can be made by the Project Group Change Deadline. However, in that case, you SHOULD receive agreements from your team members before the group revision due.
+NOTE: If you do not communicate with your group member by the Group Revision Deadline at all, and if your group member(s) contact the lecturer (Dr. Caren Han) and requests you to proceed individually, you will be assigned to work on the project individually (or without that team member).
 
 
 **Leaderboard**
-The leaderboard competition will run from 26 April to 24 May, 2024, 11:59PM. Note that the closing date is two days before the Final Submission due date.
+The leaderboard competition will run from 26 April to 24 May 2024, 11:59PM. The closing date is two days before the Final Submission due date.
 
 
 
