@@ -22,7 +22,7 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 <br/>
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/microsoft/319/calendar_1f4c5.png" width="30" />0. Important Dates
+## <img src="https://em-content.zobj.net/thumbs/120/microsoft/319/calendar_1f4c5.png" width="30" /> 0. Important Dates
 The Important date for the Project can be summarised as follows:
 - **Project Specification Release Date**: 12 April 2024 
 - **Project Group Release Date**: 12 April 2024 
@@ -118,7 +118,7 @@ You will use the test set (test-claims-unlabelled.json) to participate in the Co
 
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/desktop-computer_1f5a5-fe0f.png" width="30" />2. Important Notes
+## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/desktop-computer_1f5a5-fe0f.png" width="30" /> 2. Important Notes
 
 | :exclamation:  You need to put the code that you conduct all actions for this section to the [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing) |
 |-----------------------------------------|
