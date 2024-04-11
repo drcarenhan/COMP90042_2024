@@ -299,4 +299,4 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 **The FAQ will be updated based on the student's questions.
 
 **Question: My Model performs really bad (based on the metrics). What did I do wrong?**<br/>
-Answer: Please don't worry about the low performance, as our training dataset is relatively small, and your model is a very basic deep learning model. Of course, there is something wrong with your model code if it comes out below 0.1.
+Answer: Please don't worry about the low performance, as our training dataset is relatively small, and your model is a very basic deep learning model.
