@@ -298,5 +298,7 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 ## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" /> 7. FAQ
 **The FAQ will be updated based on the student's questions.
 
-**Question: My Model performs really bad (based on the metrics). What did I do wrong?**<br/>
-Answer: Please don't worry about the low performance, as our training dataset is relatively small, and your model is a very basic deep learning model.
+For a better and more supportive learning environment, our team summarised the FAQs based on the topic and would like to share the following posts (with our teaching team’s answer).  Please check the FAQ summary.
+
+**[FAQ Discussion Board Summary](https://docs.google.com/document/d/15WcU-V-dIvyWrFticHr2iX8QQCc61REH2WmbwdSFfNs/edit?usp=drivesdk)**
+
