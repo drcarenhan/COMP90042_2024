@@ -308,9 +308,9 @@ team name or incorrect team name format will not be marked.**
 
 -----
 **The team name MUST be formatted by following these steps:**
-1) Please check your Workshop Day and Time, and Group Number from the following [Project Group Sheet](https://docs.google.com/spreadsheets/d/1AUReGexXTE7FiOyLcKYPzoS1mLznyrQq/edit?usp=sharing&ouid=102389134173271487528&rtpof=true&sd=true)
-2) The Workshop Day and Time can be found in the name of each sheet, and the group name can be found in the column E.
-3) Your team name should be formatted as **WorkshopDayTime_GroupID** (e.g. **Tue9AM_Group1** or **Wed2PM_Group3**). Note: If your workshop starts on the quarter (e.g. Wed 2:15 PM), you should use the workshop name as listed on the Google sheet (e.g. Wed2PM_GroupX).
+1) Please check your *Workshop DayTime* and *Group Number* from the following [Project Group Sheet](https://docs.google.com/spreadsheets/d/1AUReGexXTE7FiOyLcKYPzoS1mLznyrQq/edit?usp=sharing&ouid=102389134173271487528&rtpof=true&sd=true)
+2) The *Workshop DayTime* is given by the sheet names (e.g. Mon1PM); *Group Number* is in column E within a sheet.
+3) Your team name should be formatted as **WorkshopDayTime_GroupID** (e.g. **Tue9AM_Group1** or **Wed2PM_Group3**). Note: If your workshop starts on the quarter (e.g. Wed 2:15 PM), you should still follow sheet name (e.g. Wed2PM_GroupX).
 
 ----
 
