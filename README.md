@@ -296,7 +296,7 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 
 ## 7. Codalab
 
-Codalab competition website: LINK (Will be available from 26 April)
+Codalab competition website: [Link](https://codalab.lisn.upsaclay.fr/competitions/18719?secret_key=dbe1f3f8-4f05-4dcd-9e56-4b02708fd3be)
 
 You should elect one member in your team to participate in the competition (i.e. we do not want everyone in the team to sign up for the competition). The elected member will be responsible for uploading your team's system results and they should sign up for a Codalab account **using their {student.unimelb.edu.au} address** and request to join the 
 competition via the "Participate" tab. Only 
