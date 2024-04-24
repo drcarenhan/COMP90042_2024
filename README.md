@@ -16,7 +16,8 @@ For this assignment, **instead of solely focusing on achieving higher performanc
 - [4. Report Writing](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-4-report-writing)
 - [5. Project Submission Method and Grading](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-5-project-submission-method-and-grading)
 - [6. Week12 Presentation and Peer Review](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-6-week-12-presentation-and-peer-review)
-- [7. FAQ](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-7-faq)
+- [7. Codalab](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-7-codalab)
+- [8. FAQ](https://github.com/drcarenhan/COMP90042_2024?tab=readme-ov-file#-8-faq)
 
 <br/>
 <br/>
@@ -293,9 +294,48 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 * **Presentation Skill**: 6 Marks
 * **Peer Review Skill**: 2 Marks
 
+## 7. Codalab
+
+Codalab competition website: LINK
+
+You should elect one member in your team to participate in the competition (i.e. we do not want everyone in the team to sign up for the competition). The elected member will be responsible for uploading your team's system results and they should sign up for a Codalab account **using their {student.unimelb.edu.au} address** and request to join the 
+competition via the "Participate" tab. Only 
+students enrolled in the subject will be permitted to join.
+
+After joining the competition, please edit your account details by clicking on your login in the top 
+right corner and selecting "Settings".  **Remember to set your team name** (TODO give examples). **Submissions which have no 
+team name will not be marked.**
+
+You can use this system to submit your test output, by selecting the 
+"Participate" tab and then clicking the "Ongoing evaluation" button, 
+and then "Submit". This will allow you to select a file, which is 
+uploaded to the Codalab server, which will evaluate your results and add 
+an entry to the leaderboard. Your file should be a **zip archive** 
+containing a single file named **test-claims-predictions.json**.
+The JSON file should produce the claim labels and evidence passages for all the claims in **test-claims-unlabelled.json**. The format of the JSON file should follow the format of the provided baseline system (i.e. **dev-claims-baseline.json**).
+**The system  will produce an error message if the filename is different, as it cannot 
+process your file.**
+
+The results are shown on the leaderboard under the "Results" tab, 
+under "Ongoing Evaluation".  The 
+competition ends at 11:59pm on 24th May 2024, after which submissions will no 
+longer be accepted (extensions can not be granted to this 
+deadline). At this point the "Final Evaluation" results will be 
+revealed.  These two sets of results reflect evaluation on different 
+subsets of the test data. The best score on the ongoing evaluation may 
+not be the best on the final evaluation, and we will be using the final 
+evaluation scores for ranking systems on the leaderboard. **The final result of your best 
+submission(s) can now be discussed in the report**, which is due at 11:59pm 
+on 26th May.
+
+Note that Codalab allows only 3 submissions per user per day, so please 
+only upload your results when you have made a meaningful change to your 
+system. Note that the system is a little slow to respond at times, so 
+you will need to give it a minute or so to process your file and update 
+the result table. 
 
 
-## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" /> 7. FAQ
+## <img src="https://em-content.zobj.net/thumbs/120/google/350/person-raising-hand_1f64b.png" width="30" /> 8. FAQ
 **The FAQ will be updated based on the student's questions.
 
 For a better and more supportive learning environment, our team summarised the FAQs based on the topic and would like to share the following posts (with our teaching team’s answer).  Please check the FAQ summary.
