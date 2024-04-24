@@ -296,15 +296,22 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 
 ## 7. Codalab
 
-Codalab competition website: LINK
+Codalab competition website: LINK (Will be available from 26 April)
 
 You should elect one member in your team to participate in the competition (i.e. we do not want everyone in the team to sign up for the competition). The elected member will be responsible for uploading your team's system results and they should sign up for a Codalab account **using their {student.unimelb.edu.au} address** and request to join the 
 competition via the "Participate" tab. Only 
 students enrolled in the subject will be permitted to join.
 
 After joining the competition, please edit your account details by clicking on your login in the top 
-right corner and selecting "Settings".  **Remember to set your team name** (TODO give examples). **Submissions which have no 
-team name will not be marked.**
+right corner and selecting "Settings".  **Remember to set your team name**  **Submissions which have no 
+team name or incorrect team name format will not be marked.**
+
+**The team name MUST be formatted in the following steps:**
+1) Please check your Workshop Day and Time, and Group Number from the following [Project Group Sheet](https://docs.google.com/spreadsheets/d/1AUReGexXTE7FiOyLcKYPzoS1mLznyrQq/edit?usp=sharing&ouid=102389134173271487528&rtpof=true&sd=true)
+2) The Workshop Day and Time can be found in the name of each sheet, and the group name can be found in the column E.
+3) Your team name should be WorkshopDayTime_GroupID format (e.g. Tue9AM_Group1 or Wed2PM_Group3). Note: Even if your workshop starts on Wed 2:15 PM, Please use the name of the your google sheet (Wed2PM_GroupX).
+ 
+
 
 You can use this system to submit your test output, by selecting the 
 "Participate" tab and then clicking the "Ongoing evaluation" button, 
