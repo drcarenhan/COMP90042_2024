@@ -140,7 +140,7 @@ You MUST follow the rules below. Any team found to break any of these rules will
 
 6) You MUST NOT submit the prediction result (to the codalab leaderboard) that is not produced from your code.
 
-7) Your MUST NOT use any rule-based techniques.
+7) You MUST NOT use any rule-based techniques.
 
 8) You MUST NOT use models that cannot be run on Colab (e.g. very large models that don’t fit on the GPU on Colab).
 
