@@ -286,7 +286,7 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 * The presentation allows students to communicate their project background, project aims, methods, results and importance, limitations, conclusions, and future work to a group of peers (students and Academic staff). Students are assessed on their presentation skills, visual communication skills, technical content of the presentation and their answers to questions.
 * Each group presents for 8 minutes. There is then 2 minutes for questions.
 * Peer Review Markers must use the attached marking sheet and write comments on each item to justify their mark and provide feedback to others.
-* **More information on the presentation procedure and peer review process will be released in Week 8.**
+* **More information on the presentation procedure and peer review process will be released in Week 9 (7 May).**
 
 **Marking Criteria: [Link](https://docs.google.com/document/d/1e7uZSVA4X9Accvw8I52vbcecBMEBgZfGIwseu_hzrNk/edit?usp=sharing)**
 
