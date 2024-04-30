@@ -233,9 +233,9 @@ When you write results, please be aware of the following questions: Are they wha
 **Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2024)
 
 **You Must Submit Two Files:**
-- **pdf file** (filename format: COMP90042_groupid.pdf): a report using the [ACL template](https://github.com/acl-org/acl-style-files).
+- **pdf file** (filename format: COMP90042_teamname.pdf): a report using the [ACL template](https://github.com/acl-org/acl-style-files).
 
-- **zip file** (filename format: COMP90042_groupid_resource.zip): A zip file that contains: **1)** ipynb file(s) (You MUST use this [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing)), and **2)** a README file to describe how to run the code if it's not apparent from the documentation in the ipynb files (optional), and **3)** any shell scripts that you use to run your code, e.g. to pre-install packages (optional). Note: you MUST NOT upload any data files or trained model checkpoints.
+- **zip file** (filename format: COMP90042_teamname_resource.zip): A zip file that contains: **1)** ipynb file(s) (You MUST use this [ipynb template](https://colab.research.google.com/drive/1CjlVXdEsioH_iGOHUbmrhimTLRXGJIt0?usp=sharing)), and **2)** a README file to describe how to run the code if it's not apparent from the documentation in the ipynb files (optional), and **3)** any shell scripts that you use to run your code, e.g. to pre-install packages (optional). Note: you MUST NOT upload any data files or trained model checkpoints.
 
 
 **Your submissions will be graded as follows:**
