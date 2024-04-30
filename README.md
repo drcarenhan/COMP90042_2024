@@ -28,7 +28,7 @@ The Important date for the Project can be summarised as follows:
 - **Project Specification Release Date**: 12 April 2024 
 - **Project Group Release Date**: 12 April 2024 
 - **Project Group Revision Due**: 16 April 2024 
-- **Project Group Presentation**: Week 12 (at your workshop - 20 May - 24 May 2024) 
+- **Project Group Presentation QA**: Week 12 (at your workshop - 20 May - 24 May 2024) 
 - **Project Leaderboard Competition Period**: 26 April - 24 May 2024 **(no extensions possible for the leaderboard)**
 - **Project Final Submission Due**:  26 May 2024 **(no extension will be given less than 2 days before deadline)**
 
