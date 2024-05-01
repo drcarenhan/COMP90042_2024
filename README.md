@@ -230,7 +230,7 @@ When you write results, please be aware of the following questions: Are they wha
 
 
 ## <img src="https://em-content.zobj.net/thumbs/120/whatsapp/326/envelope-with-arrow_1f4e9.png" width="30" /> 5. Project Submission Method and Grading
-**Submission:** LMS Assignment Submission Box (The submission box will be opened on 1 May 2024)
+**Submission:** [LMS Assignment Submission Box](https://canvas.lms.unimelb.edu.au/courses/181947/assignments)
 
 **You Must Submit Two Files:**
 - **pdf file** (filename format: COMP90042_teamname.pdf): a report using the [ACL template](https://github.com/acl-org/acl-style-files).
