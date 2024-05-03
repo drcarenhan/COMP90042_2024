@@ -288,6 +288,10 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 * Peer Review Markers must use the attached marking sheet and write comments on each item to justify their mark and provide feedback to others.
 * **More information on the presentation procedure and peer review process will be released in Week 9 (3 May).**
 
+
+<img src="https://github.com/drcarenhan/COMP90042_2024/blob/main/presentation_marking.jpg" width="80%"/> 
+<img src="https://github.com/drcarenhan/COMP90042_2024/blob/main/peer_marking.jpg" width="80%"/> 
+
 **Group Presentation and Peer Review Submission**
 * Presentation Recording Submission (Deadline **16 May, 11:59PM**): The link will be opened on **10 May**. (Recording file: MP4, AVI, MOV) 
 * Presentation Marking Submission (Deadline **26 May, 11:59PM**): The link will be opened on **20 May**. 
@@ -299,6 +303,9 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 **Total 8 Marks**:
 * **Presentation Skill**: 6 Marks
 * **Peer Review Skill**: 2 Marks
+ 
+
+
 
 ## 7. Codalab
 
