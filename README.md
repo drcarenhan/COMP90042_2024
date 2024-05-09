@@ -298,6 +298,11 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 * Presentation Marking Submission (Deadline **26 May, 11:59PM**): The link will be opened on **20 May**. 
 * Peer Review Submission  (Deadline **31 May, 11:59PM**): The link will be opened on **27 May**.
 
+**Late Submission**
+**IMPORTANT: The presentation recording submission deadline is 11:59 PM, 16th May 2024.
+If you submit after 11:59 PM, 16th May 2024, you will incur the late penalty (-10% per day), and will receive 0 out of 2 marks in peer review (2 marks).**
+If you submit the marking or peer review submission after the deadline, you will receive 0 (zero) out of 2 marks in peer review (2 marks)
+This is because we cannot assign your recording to other students to review.
 
 **Marking Criteria: [Link](https://docs.google.com/document/d/1e7uZSVA4X9Accvw8I52vbcecBMEBgZfGIwseu_hzrNk/edit?usp=sharing)**
 
