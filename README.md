@@ -205,7 +205,7 @@ The report should be submitted as a PDF and contain **no more than five(5)** A4 
 
 Below is a suggested report structure:
 
-**Title** The title of your project and Group Number
+**Title** The title of your project and Group Name
 
 **Abstract**. An abstract should concisely (less than 300 words) motivate the problem, describe your aims, describe your contribution, and highlight your main finding(s).
 
@@ -273,8 +273,8 @@ Joining the competition on Codalab is optional. The Codalab competition link wil
 Regardless of whether you join the competition or not, you need to include the output log in the ipynb files for the development set.
 
 Should you decide to participate, your team must nominate one member to join join the competition (via the “Participate” tab) using their student.unimelb.edu.au address email. Each team can only have 1 member joining the competition. Any team that is found to have participated with multiple accounts will be automatically suspended from the competition and graded zero for the project.
-Once you have joined the competition, please edit your account details by clicking on your login in the top right corner and selecting “Settings”. Set your group number. 
-Submissions which have no group number will not be marked.
+Once you have joined the competition, please edit your account details by clicking on your login in the top right corner and selecting “Settings”. Set your group name. 
+Submissions which have no group name will not be marked.
 
 To submit your test output, select the “Participate” tab, click the “Ongoing evaluation” button, and then click “Submit”. This will allow you to select a file, which is uploaded to the Codalab server, which will evaluate your results and add an entry to the leaderboard. Your file should be a zip archive containing a single file named test-claims-baseline.json. The JSON file should produce the claim labels and evidence passages for all the claims in test-claims-unlabelled.json. The format of the JSON file should follow the format of the provided baseline system (i.e. dev-claims-baseline.json). The system will produce an error message if the filename is different, as it cannot process your file.
 
