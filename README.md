@@ -195,6 +195,14 @@ You must use LATEX for writing your report. You must include your group number u
 
 The report should be submitted as a PDF and contain **no more than five(5)** A4 pages of content, excluding  team contribution and references. An appendix is NOT allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
+-----
+**The team name (Group Name) MUST be formatted by following these steps:**
+1) Please check your *Workshop DayTime* and *Group Number* from the following [Project Group Sheet](https://docs.google.com/spreadsheets/d/1AUReGexXTE7FiOyLcKYPzoS1mLznyrQq/edit?usp=sharing&ouid=102389134173271487528&rtpof=true&sd=true)
+2) The *Workshop DayTime* is given by the sheet names (e.g. Mon1PM); *Group Number* is in column E within a sheet.
+3) Your team name should be formatted as **WorkshopDayTime_GroupID** (e.g. **Tue9AM_Group1** or **Wed2PM_Group3**). Note: If your workshop starts on the quarter (e.g. Wed 2:15 PM), you should still follow sheet name (e.g. Wed2PM_GroupX).
+
+----
+
 Below is a suggested report structure:
 
 **Title** The title of your project and Group Number
@@ -307,6 +315,15 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 * If you submit the marking or peer review submission after the deadline, you will receive 0 (zero) out of 2 marks in peer review (2 marks)
 * This is because we cannot assign your recording to other students to review.
 
+-----
+**The team name (Group Name) MUST be formatted by following these steps:**
+1) Please check your *Workshop DayTime* and *Group Number* from the following [Project Group Sheet](https://docs.google.com/spreadsheets/d/1AUReGexXTE7FiOyLcKYPzoS1mLznyrQq/edit?usp=sharing&ouid=102389134173271487528&rtpof=true&sd=true)
+2) The *Workshop DayTime* is given by the sheet names (e.g. Mon1PM); *Group Number* is in column E within a sheet.
+3) Your team name should be formatted as **WorkshopDayTime_GroupID** (e.g. **Tue9AM_Group1** or **Wed2PM_Group3**). Note: If your workshop starts on the quarter (e.g. Wed 2:15 PM), you should still follow sheet name (e.g. Wed2PM_GroupX).
+
+----
+
+
 **Marking Criteria: [Link](https://docs.google.com/document/d/1e7uZSVA4X9Accvw8I52vbcecBMEBgZfGIwseu_hzrNk/edit?usp=sharing)**
 
 **Total 8 Marks**:
@@ -329,7 +346,7 @@ right corner and selecting "Settings".  **Remember to set your team name.**  **S
 team name or incorrect team name format will not be marked.**
 
 -----
-**The team name MUST be formatted by following these steps:**
+**The team name (Group Name) MUST be formatted by following these steps:**
 1) Please check your *Workshop DayTime* and *Group Number* from the following [Project Group Sheet](https://docs.google.com/spreadsheets/d/1AUReGexXTE7FiOyLcKYPzoS1mLznyrQq/edit?usp=sharing&ouid=102389134173271487528&rtpof=true&sd=true)
 2) The *Workshop DayTime* is given by the sheet names (e.g. Mon1PM); *Group Number* is in column E within a sheet.
 3) Your team name should be formatted as **WorkshopDayTime_GroupID** (e.g. **Tue9AM_Group1** or **Wed2PM_Group3**). Note: If your workshop starts on the quarter (e.g. Wed 2:15 PM), you should still follow sheet name (e.g. Wed2PM_GroupX).
