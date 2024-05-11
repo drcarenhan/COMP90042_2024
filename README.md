@@ -191,7 +191,7 @@ Note that this is not a realistic baseline, and you might find that your system 
 | :exclamation:  You MUST use the [ACL template](https://github.com/acl-org/acl-style-files) when writing your report.
 |-----------------------------------------|
 
-You must use LATEX for writing your report. You must include your group number under the title (using the \author field in LATEX and enabling the \aclfinalcopy option), but not your name. We will not accept reports that are longer than the stated limits below, or otherwise violate the style requirements.
+You must use LATEX for writing your report. You must include your group number under the title (using the \author field in LATEX and changing "review" to "final" to generate the final (sometimes called camera-ready) version. \usepackage[review]{acl} --> \usepackage[final]{acl}), but not your name. We will not accept reports that are longer than the stated limits below, or otherwise violate the style requirements.
 
 The report should be submitted as a PDF and contain **no more than five(5)** A4 pages of content, excluding  team contribution and references. An appendix is NOT allowed. Therefore, you should consider carefully the information that you want to include in the report to build a coherent and concise narrative.
 
