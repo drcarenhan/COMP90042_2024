@@ -295,7 +295,7 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 **We do understand you may not have a final result yet (Preliminary result is acceptable).**
 
 * The presentation allows students to communicate their project background, project aims, methods, **(preliminary) results (no need to be finalised as we do understand that you are in the middle of working on the project)** and importance, limitations, conclusions, and future work to a group of peers (students and Academic staff). Students are assessed on their presentation skills, visual communication skills, technical content of the presentation and their answers to questions.
-* Each Group Presentation: 8 minutes. Question and Answering: 5 minutes for questions.
+* Each Group Presentation: 8 minutes (Recording file: no more than 8 mins). Question and Answering: 5 minutes for questions.
 * Peer Review Markers must use the attached marking sheet and write comments on each item to justify their mark and provide feedback to others.
 
 * **The presentation procedure and peer review process.**
