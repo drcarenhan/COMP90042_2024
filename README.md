@@ -358,7 +358,7 @@ You can use this system to submit your test output, by selecting the
 and then "Submit". This will allow you to select a file, which is 
 uploaded to the Codalab server, which will evaluate your results and add 
 an entry to the leaderboard. Your file should be a **zip archive** 
-containing a single file named **test-claims-predictions.json**.
+containing a single file named **test-output.json**.
 The JSON file should produce the claim labels and evidence passages for all the claims in **test-claims-unlabelled.json**. The format of the JSON file should follow the format of the provided baseline system (i.e. **dev-claims-baseline.json**).
 **The system  will produce an error message if the filename is different, as it cannot 
 process your file.**
