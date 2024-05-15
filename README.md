@@ -305,7 +305,7 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 <img src="https://github.com/drcarenhan/COMP90042_2024/blob/main/peer_marking.jpg" width="80%"/> 
 
 **Group Presentation and Peer Review Submission**
-* Presentation Recording Submission (Deadline **16 May, 11:59PM**): The link will be opened on **10 May**. (Recording file: MP4, AVI, MOV) 
+* Presentation Recording Submission (Deadline **16 May, 11:59PM**): The link will be opened on **10 May**. (Recording file: MP4, AVI, MOV) - e.g. teamname.mp4
 * Presentation Marking Submission (Deadline **26 May, 11:59PM**): The link will be opened on **20 May**. 
 * Peer Review Submission  (Deadline **31 May, 11:59PM**): The link will be opened on **27 May**.
 
