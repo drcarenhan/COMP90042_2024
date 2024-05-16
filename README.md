@@ -291,6 +291,8 @@ Note that Codalab allows only 3 submissions per team per day, so please only upl
 
 ## <img src="https://em-content.zobj.net/source/whatsapp/390/clipboard_1f4cb.png" width="30" /> 6. Week 12 Presentation and Peer Review
 **Note that You MUST attend the Week 12 Workshop. Otherwise, your presentation mark will be ZERO.**
+[How to watch other peers' recordings and the Workshop flow](https://docs.google.com/document/d/18FjlvCnInhuc-6zLejWzy0Wexb3UgwA4OqoRgqjkhAY/edit)
+
 
 **We do understand you may not have a final result yet (Preliminary result is acceptable).**
 
